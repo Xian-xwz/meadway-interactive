@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="data:,">
+<title>Meadway · Interactive model</title><link rel="stylesheet" href="style.css">
+<script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script></head>
+<body>
+<header><strong>MAPLEXIAN</strong><span>21 MEADWAY <i> / </i> ARCHITECTURAL STUDY</span><div class="local">INTERACTIVE <small>交互模型</small></div></header>
+<main>
+<section id="viewport" aria-label="Interactive building model">
+ <div class="view-title"><span>EXPLORE THE BUILDING</span><h1 id="view-title">Whole house</h1><p id="view-zh">整屋建筑</p></div>
+ <div id="loading" role="status">Loading your model…<small>正在加载建筑与地形</small></div>
+ <div id="pin" hidden></div>
+ <div class="gestures">Drag to orbit <b>·</b> Scroll to zoom <b>·</b> Right-drag to pan<br><small>拖动旋转 · 滚轮缩放 · 右键拖动平移 · 点击查看构件</small></div>
+ <button id="reset" class="reset" title="Reset current view / 重置当前视图">↺ <span>Reset view<small>重置视角</small></span></button>
+</section>
+<aside>
+ <section><div class="section-label">01 / VIEW <small>视图</small></div>
+ <nav id="views" aria-label="Model views">
+  <button data-view="hero" class="active" aria-pressed="true">Whole house<small>整屋建筑</small></button>
+  <button data-view="site" aria-pressed="false">Building & site<small>建筑与场地</small></button>
+  <button data-view="cutaway" aria-pressed="false">Inside the house<small>剖切空间</small></button>
+  <div class="pair"><button data-view="gf" aria-pressed="false">Ground floor<small>一层顶视</small></button><button data-view="ff" aria-pressed="false">First floor<small>二层顶视</small></button></div>
+ </nav></section>
+ <section><div class="section-label">02 / LAYERS <small>显示</small></div>
+ <label class="toggle"><span>Roof <small>屋面</small></span><input id="roof" type="checkbox" checked></label>
+ <label class="toggle"><span>Terrain & platform <small>地形与平台</small></span><input id="terrain" type="checkbox" checked></label>
+ <p class="context" id="layer-hint">Hide the roof to explore inside.<br>隐藏屋面可查看内部空间。</p></section>
+ <section class="levels"><div class="section-label">LEVELS <small>地坪标高</small></div><p>Lots 1–3 <strong>RL 14.15 m</strong></p><p>Lots 4–6 <strong>RL 14.25 m*</strong></p><small>* Drawings differ by 100 mm.<br>部分图纸存在100mm冲突，当前值暂用。</small></section>
+ <section id="inspector" aria-live="polite"><div class="section-label">03 / COMPONENT <small>构件信息</small></div><div id="details"><p class="empty">Click a part of the model.<br><small>点击墙体、楼板、楼梯或屋面，查看已有资料。</small></p></div><button id="clear" hidden>Clear selection / 取消选择</button></section>
+</aside>
+</main>
+<footer><div>Architectural model. Foundations are not designed; platforms and some geometry are schematic.</div><small>建筑空间展示：基础未设计；整地平台、部分高度及构造为示意。土块下缘不是基础埋深。</small></footer>
+<script>
+const fail=e=>{document.querySelector('#loading').hidden=false;document.querySelector('#loading').textContent='Unable to load model / 模型加载失败：'+(e.reason?.message||e.message||'Please reload / 请刷新页面');};window.addEventListener('error',fail);window.addEventListener('unhandledrejection',fail);
+</script><script type="module" src="engine.js"></script></body></html>

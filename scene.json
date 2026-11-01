@@ -1,0 +1,313 @@
+{
+  "schema": 1,
+  "profile": "architectural-framework",
+  "model": "model.glb",
+  "metadata": "metadata.json",
+  "brand": "MAPLEXIAN",
+  "projectLabel": "21 MEADWAY · LOTS 1–6",
+  "levels": {
+    "A": {
+      "GF": 0,
+      "FF": 2.72
+    },
+    "B": {
+      "GF": 0.1,
+      "FF": 2.82
+    }
+  },
+  "levelNotes": [
+    {
+      "text": "FFL  Lots 1–3   RL 14.15 m"
+    },
+    {
+      "text": "FFL  Lots 4–6   RL 14.25 m*"
+    },
+    {
+      "text": "*100 mm conflict in some sections",
+      "secondary": true
+    },
+    {
+      "text": "后排与部分剖面有100毫米差异，暂按场地图",
+      "secondary": true
+    }
+  ],
+  "note": "Platforms and grading are schematic. Foundation design is not shown.",
+  "noteZh": "平台和整地过渡为示意；基础未设计。洞口、楼梯与屋面细节为简化表达。",
+  "views": [
+    {
+      "id": "hero",
+      "kind": "hero",
+      "title": "Homes on the site",
+      "subtitle": "场地、平台与双层住宅",
+      "direction": [
+        1,
+        0.78,
+        1
+      ],
+      "labels": [
+        {
+          "point": [
+            20.2,
+            -0.225,
+            1
+          ],
+          "text": "Graded platform*",
+          "sub": "整地平台 · 示意",
+          "dx": -160,
+          "dy": 55
+        },
+        {
+          "point": [
+            31.602,
+            -1,
+            -9.895
+          ],
+          "text": "Ground RL 13.15 m",
+          "sub": "现状地面 · 图示测点",
+          "dx": 70,
+          "dy": 45
+        }
+      ]
+    },
+    {
+      "id": "cutaway",
+      "kind": "cutaway",
+      "title": "Ground to living space",
+      "subtitle": "地面、地坪与两层空间",
+      "direction": [
+        1,
+        0.68,
+        1
+      ],
+      "sections": {
+        "A": {
+          "normal": [
+            -1,
+            0,
+            0
+          ],
+          "constant": 25.1
+        },
+        "B": {
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "constant": -4.2
+        }
+      },
+      "labels": [
+        {
+          "point": [
+            25,
+            0,
+            0
+          ],
+          "text": "FFL  RL 14.15 m",
+          "sub": "一层地坪 · 场地图标高",
+          "dx": 20,
+          "dy": 55
+        },
+        {
+          "point": [
+            18,
+            -0.125,
+            -0.7
+          ],
+          "text": "Platform level*",
+          "sub": "平台高度 · 示意",
+          "dx": -170,
+          "dy": 45
+        },
+        {
+          "point": [
+            31.602,
+            -1,
+            -9.895
+          ],
+          "text": "Ground RL 13.15 m",
+          "sub": "现状地面 · 图示测点",
+          "dx": 70,
+          "dy": 45
+        }
+      ]
+    },
+    {
+      "id": "gf",
+      "kind": "plan",
+      "floor": "GF",
+      "cutAbove": 1.2,
+      "title": "Ground floor",
+      "subtitle": "一层顶视 · 墙位、洞口与楼梯",
+      "note": "Opening heights, stair details and roof edges are schematic. No structural design is implied.",
+      "noteZh": "洞口高度、楼梯细部与屋面边缘为示意；本图展示建筑空间，未进行结构设计。"
+    },
+    {
+      "id": "ff",
+      "kind": "plan",
+      "floor": "FF",
+      "cutAbove": 1.2,
+      "title": "First floor",
+      "subtitle": "二层顶视 · 楼层边界与楼梯洞口",
+      "note": "Opening heights, stair details and roof edges are schematic. No structural design is implied.",
+      "noteZh": "洞口高度、楼梯细部与屋面边缘为示意；本图展示建筑空间，未进行结构设计。"
+    }
+  ],
+  "measurements": [
+    {
+      "id": "gf-a-width",
+      "type": "span",
+      "select": {
+        "id": "GF-A-FLOOR"
+      },
+      "axis": 0,
+      "expected": 8.5,
+      "tolerance": 0.002,
+      "source_ids": [
+        "PDF"
+      ],
+      "locator": "A100 / PDF p.13 / 8500 mm"
+    },
+    {
+      "id": "ff-a-width",
+      "type": "span",
+      "select": {
+        "id": "FF-A-FLOOR"
+      },
+      "axis": 0,
+      "expected": 8.9,
+      "tolerance": 0.002,
+      "source_ids": [
+        "PDF"
+      ],
+      "locator": "A101 / PDF p.14 / 8900 mm"
+    },
+    {
+      "id": "gf-b-width",
+      "type": "span",
+      "select": {
+        "id": "GF-B-FLOOR"
+      },
+      "axis": 0,
+      "expected": 18.18,
+      "tolerance": 0.003,
+      "source_ids": [
+        "PDF"
+      ],
+      "locator": "A200 / PDF p.22 / 18180 mm"
+    },
+    {
+      "id": "floor-height-a",
+      "type": "delta",
+      "from": {
+        "id": "GF-A-FLOOR"
+      },
+      "to": {
+        "id": "FF-A-FLOOR"
+      },
+      "axis": 1,
+      "bound": "max",
+      "expected": 2.72,
+      "tolerance": 0.001,
+      "source_ids": [
+        "PDF"
+      ],
+      "locator": "A120/A220 / floor-to-floor 2720 mm"
+    },
+    {
+      "id": "floor-height-b",
+      "type": "delta",
+      "from": {
+        "id": "GF-B-FLOOR"
+      },
+      "to": {
+        "id": "FF-B-FLOOR"
+      },
+      "axis": 1,
+      "bound": "max",
+      "expected": 2.72,
+      "tolerance": 0.001,
+      "source_ids": [
+        "PDF"
+      ],
+      "locator": "A220 / floor-to-floor 2720 mm"
+    },
+    {
+      "id": "roof-pitch",
+      "type": "roof_pitch",
+      "select": {
+        "group": "roof"
+      },
+      "expected": 20,
+      "tolerance": 0.01,
+      "source_ids": [
+        "PDF"
+      ],
+      "locator": "A130/A231 / 20 degrees"
+    }
+  ],
+  "assumptions": [
+    {
+      "select": {
+        "block": "B"
+      },
+      "impact": "overall",
+      "note": "Lots 4–6 RL temporarily 14.25/16.97 m; source drawings conflict by 100 mm."
+    },
+    {
+      "select": {
+        "group": "walls"
+      },
+      "impact": "overall",
+      "note": "Wall plan is sourced; some vertical extents remain schematic."
+    },
+    {
+      "select": {
+        "group": "opening_infill"
+      },
+      "impact": "local",
+      "note": "Opening sill/head heights are schematic."
+    },
+    {
+      "select": {
+        "group": "stairs"
+      },
+      "impact": "local",
+      "note": "Stair footprint is sourced; treads and turns are schematic."
+    },
+    {
+      "select": {
+        "group": "roof"
+      },
+      "impact": "overall",
+      "note": "Pitch follows drawings; envelope edges/eaves are simplified."
+    },
+    {
+      "select": {
+        "group": "ground_slab"
+      },
+      "impact": "detail",
+      "note": "Slab thickness is schematic; not a foundation design."
+    },
+    {
+      "select": {
+        "group": "upper_slab"
+      },
+      "impact": "local",
+      "note": "Stair void envelope is schematic."
+    }
+  ],
+  "ground": "ground.json",
+  "groundFrame": {
+    "units": "m",
+    "up": "Y",
+    "datum_id": "MEADWAY-RL14.15",
+    "rl_at_y0_m": 14.15,
+    "plan_to_world": "(x,y) -> (x,height,-y)"
+  },
+  "duration": 20,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080
+}

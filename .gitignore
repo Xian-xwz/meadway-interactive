@@ -1,0 +1,6 @@
+*.pdf
+*.dwg
+*.dxf
+.env*
+*.log
+server.json

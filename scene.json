@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "profile": "architectural-framework",
-  "model": "model.glb",
-  "metadata": "metadata.json",
+  "model": "./model.glb",
+  "metadata": "./metadata.json",
   "brand": "MAPLEXIAN",
   "projectLabel": "21 MEADWAY · LOTS 1–6",
   "levels": {
@@ -31,8 +31,8 @@
       "secondary": true
     }
   ],
-  "note": "Platforms and grading are schematic. Foundation design is not shown.",
-  "noteZh": "平台和整地过渡为示意；基础未设计。洞口、楼梯与屋面细节为简化表达。",
+  "note": "19 selected trusses only. Bearing levels & gutter setdown schematic. Foundations not designed.",
+  "noteZh": "仅展示已核两类19榀；支承高度、天沟降位及平台为示意；基础未设计，其他屋架未建。",
   "views": [
     {
       "id": "hero",
@@ -296,9 +296,16 @@
       },
       "impact": "local",
       "note": "Stair void envelope is schematic."
+    },
+    {
+      "select": {
+        "group": "trusses"
+      },
+      "impact": "overall",
+      "note": "19 selected trusses only; bearing elevation and gutter setdown schematic; other types and connection plates omitted."
     }
   ],
-  "ground": "ground.json",
+  "ground": "./ground.json",
   "groundFrame": {
     "units": "m",
     "up": "Y",
@@ -306,8 +313,11 @@
     "rl_at_y0_m": 14.15,
     "plan_to_world": "(x,y) -> (x,height,-y)"
   },
-  "duration": 20,
+  "duration": 30,
   "fps": 30,
   "width": 1920,
-  "height": 1080
+  "height": 1080,
+  "palette": {
+    "timber": "#c39c5b"
+  }
 }

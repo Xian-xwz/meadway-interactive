@@ -31,8 +31,8 @@
       "secondary": true
     }
   ],
-  "note": "19 selected trusses only. Bearing levels & gutter setdown schematic. Foundations not designed.",
-  "noteZh": "仅展示已核两类19榀；支承高度、天沟降位及平台为示意；基础未设计，其他屋架未建。",
+  "note": "Six-home roof layout. Orange trusses are schematic; timber-coloured trusses follow supplied sections. Bearing levels and connections remain schematic.",
+  "noteZh": "六户屋架：橙色为缺详图示意，木色按已有详图；支承高度与连接仍为示意。",
   "views": [
     {
       "id": "hero",
@@ -318,6 +318,7 @@
   "width": 1920,
   "height": 1080,
   "palette": {
-    "timber": "#c39c5b"
+    "timber": "#c39c5b",
+    "schematic": "#d99239"
   }
 }

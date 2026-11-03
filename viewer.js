@@ -6,7 +6,7 @@ export function install(env){
  if(matchMedia('(pointer: coarse)').matches)document.querySelector('.gestures').innerHTML='One finger: rotate · Two fingers: zoom / pan<br><small>单指旋转 · 双指缩放或平移 · 轻点查看构件</small>';
  const controls=new OrbitControls(camera,canvas);controls.enableDamping=true;controls.dampingFactor=.1;controls.minZoom=.25;controls.maxZoom=10;controls.maxPolarAngle=Math.PI*.495;
  renderer.shadowMap.autoUpdate=false;
- const ray=new T.Raycaster(),pointer=new T.Vector2(),titles={hero:['Whole house','整屋建筑'],site:['Building & site','建筑与场地'],cutaway:['Inside the house','剖切空间'],gf:['Ground floor','一层顶视'],ff:['First floor','二层顶视'],trusses:['Selected roof trusses','已核两类屋架 · 19榀'],trussA:['S2 · Nine trusses','S2型 · 9榀 · Lots 1–3'],trussB:['S4 · Ten trusses','S4型 · 10榀 · Lots 4–6']};
+ const ray=new T.Raycaster(),pointer=new T.Vector2(),titles={hero:['Whole house','整屋建筑'],site:['Building & site','建筑与场地'],cutaway:['Inside the house','剖切空间'],gf:['Ground floor','一层顶视'],ff:['First floor','二层顶视'],trusses:['Roof structure · Six homes','六户屋架 · 木色详图 / 橙色示意'],trussA:['Lots 1–3 · Roof structure','1至3户屋架'],trussB:['Lots 4–6 · Roof structure','4至6户屋架']};
  let view='hero',roof=true,terrain=true,trusses=true,selected=null,dirty=true,down=null,initialized=false;
  const meshMap=new Map(),baseTransforms=parts.map(p=>p.o.matrixWorld.toArray());
  for(const p of parts)for(const m of p.meshes)meshMap.set(m,p);
@@ -34,7 +34,7 @@ export function install(env){
   for(const b of document.querySelectorAll('[data-view]')){b.classList.toggle('active',b.dataset.view===view);b.setAttribute('aria-pressed',String(b.dataset.view===view));}
   document.querySelector('#roof').disabled=plan||cut||tv;document.querySelector('#roof').checked=roof&&!plan&&!cut&&!tv;document.querySelector('#trusses').disabled=plan||tv;document.querySelector('#trusses').checked=(trusses||tv)&&!plan;
   document.querySelector('#terrain').disabled=plan||close;document.querySelector('#terrain').checked=terrain&&!plan&&!close;
-  document.querySelector('#layer-hint').textContent=tv?'19 selected trusses; bearings schematic. 仅两类19榀，支承高度示意。':plan?'Floor slice at +1.20 m / 楼层上方1.20m切片':cut?'Roof hidden for the section / 剖切视图自动隐藏屋面':'Hide the roof to explore inside / 隐藏屋面可查看内部';
+  document.querySelector('#layer-hint').textContent=tv?'Timber: supplied section · Orange: schematic. 木色详图，橙色示意；支承高度待核。':plan?'Floor slice at +1.20 m / 楼层上方1.20m切片':cut?'Roof hidden for the section / 剖切视图自动隐藏屋面':'Hide the roof to explore inside / 隐藏屋面可查看内部';
   if(reset)fit(plan?[0,1,.0001]:[1,.72,1]);renderer.shadowMap.needsUpdate=true;dirty=true;
  }
  const groupText={walls:'Wall / 墙体',opening_infill:'Opening / 洞口示意',ground_slab:'Ground floor slab / 一层地坪',upper_slab:'Upper floor slab / 二层楼板',stairs:'Stair / 楼梯',roof:'Roof / 屋面',trusses:'Roof truss / 屋架'};
@@ -49,7 +49,7 @@ export function install(env){
   clearSelection();if(!p)return;selected=p;for(const m of p.meshes)m.material.emissive.set('#194a3e');
   const c=p.c,d=document.querySelector('#details');d.replaceChildren(el('h2',groupText[c.group]||c.group),el('div',c.id,'id'));
   d.append(el('span',c.block==='A'?'Lots 1–3':'Lots 4–6','chip'),el('span',c.floor==='GF'?'Ground floor / 一层':c.floor==='FF'?'First floor / 二层':c.floor,'chip'));
-  if(c.truss_id)d.append(el('p',`${c.truss_type} · ${c.truss_id} · Part of a selected group / 局部屋架组`));const params=Object.entries(c.parameters||{}),schematic=params.some(([,v])=>v.status==='schematic');
+  if(c.truss_id)d.append(el('p',`Lot ${c.lot} · ${c.truss_type} · ${c.profile_status==='measured'?'Supplied section / 已有截面详图':'Schematic section / 截面示意'}`));const params=Object.entries(c.parameters||{}),schematic=params.some(([,v])=>v.status==='schematic');
   if(schematic)d.append(el('span','Contains schematic values / 含示意参数','chip warning'));
   const size=p.box.getSize(new T.Vector3());d.append(el('p',`Model extents / 模型包围尺寸：${size.toArray().map(x=>x.toFixed(2)).join(' × ')} m`));
   for(const[key,value]of params){const item=el('details',''),summary=el('summary',`${key} · ${statuses[value.status]||value.status}`);item.append(summary,el('p',value.locator||'No locator'),el('p',value.note||''));d.append(item);}

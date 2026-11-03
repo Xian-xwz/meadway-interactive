@@ -2,3 +2,7 @@
 
 /* 手机可点区域保留足够高度。 */
 @media(pointer:coarse){.toggle{min-height:44px}.reset,#clear{min-height:44px}summary{min-height:44px;display:flex;align-items:center}}
+
+/* 增量控件沿用原米白主题；层级与墙体表现分别设置。 */
+.wall-label{margin-top:24px}#wall-modes{display:grid;gap:6px}#wall-modes button{background:#eaeadd;border:1px solid transparent;border-radius:5px;padding:10px 12px;text-align:left;min-height:44px}#wall-modes button.active{background:#315f56;color:white}.levels p{display:block}.levels strong{display:block;margin-top:3px}.context{font-size:11px}
+@media(max-width:580px){aside{grid-template-columns:1fr 1fr}#wall-modes button{padding:10px 8px}}

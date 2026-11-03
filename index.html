@@ -16,6 +16,8 @@
 <aside>
  <section><div class="section-label">01 / VIEW <small>视图</small></div>
  <nav id="views" aria-label="Model views">
+  <button data-view="upper">First-floor framing<small>二层墙架 · 六户</small></button>
+  <div class="pair"><button data-view="upperA">Lots 1–3<small>二层墙架近看</small></button><button data-view="upperB">Lots 4–6<small>二层墙架近看</small></button></div>
   <button data-view="hero" class="active" aria-pressed="true">Whole house<small>整屋建筑</small></button>
   <button data-view="site" aria-pressed="false">Building & site<small>建筑与场地</small></button>
   <button data-view="cutaway" aria-pressed="false">Inside the house<small>剖切空间</small></button>
@@ -26,13 +28,22 @@
  <section><div class="section-label">02 / LAYERS <small>显示</small></div>
  <label class="toggle"><span>Roof <small>屋面</small></span><input id="roof" type="checkbox" checked></label>
  <label class="toggle"><span>Trusses <small>屋架</small></span><input id="trusses" type="checkbox" checked></label>
+ <label class="toggle"><span>First floor <small>上层墙体</small></span><input id="upper" type="checkbox" checked></label>
+ <label class="toggle"><span>Between floors <small>层间楼板</small></span><input id="middle" type="checkbox" checked></label>
+ <label class="toggle"><span>Ground floor <small>下层与楼梯</small></span><input id="lower" type="checkbox" checked></label>
  <label class="toggle"><span>Terrain & platform <small>地形与平台</small></span><input id="terrain" type="checkbox" checked></label>
+ <div class="section-label wall-label">UPPER WALL DISPLAY <small>上层墙体表现</small></div>
+ <div id="wall-modes" role="group" aria-label="Upper wall display">
+ <button data-wall="solid">Solid walls<small>完整墙</small></button>
+ <button data-wall="frame">Timber framing<small>木墙架</small></button>
+ <button data-wall="overlay">Overlay<small>半透明叠加</small></button></div>
+ <p class="context">Framing is available on the first floor. The lower floor remains solid; floor joists are not modeled.<br>上层可切换木架；下层保留完整墙，层间搁栅尚未建模。</p>
  <p class="context" id="layer-hint">Hide the roof to explore inside.<br>隐藏屋面可查看内部空间。</p></section>
- <section class="levels"><div class="section-label">LEVELS <small>地坪标高</small></div><p>Lots 1–3 <strong>RL 14.15 m</strong></p><p>Lots 4–6 <strong>RL 14.25 m*</strong></p><small>* Drawings differ by 100 mm.<br>部分图纸存在100mm冲突，当前值暂用。</small></section>
+ <section class="levels"><div class="section-label">LEVELS <small>地坪标高</small></div><p>Lots 1–3 <strong>GF 14.15 / FF 16.87 m</strong></p><p>Lots 4–6 <strong>GF 14.25 / FF 16.97 m*</strong></p><small>* Drawings differ by 100 mm.<br>部分图纸存在100mm冲突，当前值暂用。</small></section>
  <section id="inspector" aria-live="polite"><div class="section-label">03 / COMPONENT <small>构件信息</small></div><div id="details"><p class="empty">Click a part of the model.<br><small>点击墙体、楼板、楼梯或屋面，查看已有资料。</small></p></div><button id="clear" hidden>Clear selection / 取消选择</button></section>
 </aside>
 </main>
-<footer><div>Six-home roof layout. Orange trusses are schematic; timber-coloured trusses follow supplied sections. Bearing levels and connections remain schematic.</div><small>六户屋架：橙色为缺详图示意，木色按已有详图；支承高度与连接仍为示意。 平台示意，基础未设计。</small></footer>
+<footer><div>Upper-floor wall framing + six-home roof layout. Lintels, window levels, connections and selected supports are schematic. Foundations are not designed.</div><small>二层墙架与六户屋架；过梁、窗台高度、连接与部分支承为示意。地形和平台沿用已核模型，基础未设计。</small></footer>
 <script>
 const fail=e=>{document.querySelector('#loading').hidden=false;document.querySelector('#loading').textContent='Unable to load model / 模型加载失败：'+(e.reason?.message||e.message||'Please reload / 请刷新页面');};window.addEventListener('error',fail);window.addEventListener('unhandledrejection',fail);
 </script><script type="module" src="engine.js"></script></body></html>

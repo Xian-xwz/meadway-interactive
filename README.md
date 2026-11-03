@@ -1,10 +1,13 @@
 # Meadway interactive model
 
-An interactive architectural study of 21 Meadway, with terrain, two floor plans, a section view and roof trusses across six homes. English labels include Chinese translations. The viewer uses one shared model for every view.
+An interactive architectural study of 21 Meadway, with terrain, two floor plans, a section view, six-home roof trusses and upper-floor timber framing. English labels include Chinese translations. The viewer uses one shared model for every view.
 
 - Desktop: drag to orbit, scroll to zoom, right-drag to pan.
 - Mobile: one finger to orbit, two fingers to zoom or pan; tap to inspect a component. Scroll outside the model to reach controls.
-- Select a view, hide the roof, or inspect existing component properties.
+- Select an upper-floor overview or a close-up for Lots 1–3 / 4–6.
+- Toggle roof, trusses, upper walls, floor slabs, lower floor and terrain independently.
+- Switch upper walls between solid, timber framing and overlay. Lower-floor framing and floor joists are not modeled.
+- Select a member to inspect its existing properties. Capping plate labels follow the project engineer's terminology; legacy stable IDs are retained.
 
 This is an architectural visualization, not a structural design. Foundations are not designed. Platforms and the source drawings' 100 mm level conflict remain identified in the viewer. Roof layout covers 72 positions: 50 use seven supplied truss sections (timber colour), 22 use schematic sections (orange). Five double-truss positions contain two plies. All plan positions follow the archived layout. Bearing heights, gutter setdown and missing section geometry remain schematic; connection plates and edge outriggers are omitted. Displayed component extents are model bounding boxes, not design sections. Wall junctions connect in the model geometry; doors and separate-wall cavities remain open.
 

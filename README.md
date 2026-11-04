@@ -20,3 +20,7 @@ GitHub Pages serves the main branch root. All runtime assets are local and use r
 ## Third-party code
 
 Three.js and OrbitControls r160 are MIT licensed; see vendor/THREE-LICENSE.txt. Source: https://github.com/mrdoob/three.js/tree/r160
+
+## Local performance candidate
+See PERFORMANCE.md for baseline, exact geometry checks, measurements and acceptance status. This branch has not been published. Source geometry is maintained upstream; tools/compact_glb.py produces a separate, checked display asset.
+

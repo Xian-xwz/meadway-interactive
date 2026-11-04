@@ -14,6 +14,25 @@
  <button id="reset" class="reset" title="Reset current view / 重置当前视图">↺ <span>Reset view<small>重置视角</small></span></button>
 </section>
 <aside>
+ <section class="catalog">
+  <div class="section-label">BROWSE <small>构件目录</small></div>
+  <div class="catalog-switch" role="group" aria-label="Discipline / 专业">
+   <button type="button" data-catalog="st" aria-controls="catalog-st" aria-pressed="true">ST · Structure<small>结构</small></button>
+   <button type="button" data-catalog="arc" aria-controls="catalog-arc" aria-pressed="false">ARC · Architecture<small>建筑</small></button>
+  </div>
+  <nav id="catalog-st" aria-label="Structure systems / 结构系统">
+   <button type="button" data-catalog-filter="walls framing" aria-pressed="false">Walls &amp; framing<small>墙体与墙架</small></button>
+   <button type="button" data-catalog-filter="ground_slab upper_slab" aria-pressed="false">Floors &amp; support<small>楼板与支承</small></button>
+   <button type="button" data-catalog-filter="trusses" aria-pressed="false">Roof structure<small>屋盖结构</small></button>
+  </nav>
+  <nav id="catalog-arc" aria-label="Architecture systems / 建筑系统" hidden>
+   <button type="button" data-catalog-filter="walls opening_infill" aria-pressed="false">Walls &amp; openings<small>墙体与洞口</small></button>
+   <button type="button" data-catalog-filter="ground_slab upper_slab stairs" aria-pressed="false">Floors &amp; stairs<small>楼板与楼梯</small></button>
+   <button type="button" data-catalog-filter="roof terrain" aria-pressed="false">Roof &amp; site<small>屋面与场地</small></button>
+  </nav>
+  <button type="button" id="catalog-all" aria-pressed="true">All systems / 全部系统</button>
+  <p id="catalog-status" class="context" role="status"></p>
+ </section>
  <section><div class="section-label">01 / VIEW <small>视图</small></div>
  <nav id="views" aria-label="Model views">
   <button data-view="upper">First-floor framing<small>二层墙架 · 六户</small></button>

@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "profile": "architectural-framework",
-  "model": "./delivery-v2/model.glb",
-  "metadata": "./delivery-v2/model.light.json",
+  "model": "./published-model/model.glb",
+  "metadata": "./published-model/model.light.json",
   "brand": "MAPLEXIAN",
   "projectLabel": "21 MEADWAY · LOTS 1–6",
   "levels": {
@@ -31,8 +31,8 @@
       "secondary": true
     }
   ],
-  "note": "Six-home roof layout. Orange trusses are schematic; timber-coloured trusses follow supplied sections. Bearing levels and connections remain schematic.",
-  "noteZh": "六户屋架：橙色为缺详图示意，木色按已有详图；支承高度与连接仍为示意。",
+  "note": "Lot 3: darker end trusses, lighter interior trusses. Colour does not certify a supplied section; inspect each member for schematic status. Other lots retain their previous evidence colours.",
+  "noteZh": "Lot3两端深色、中间浅色；颜色不表示详图已齐，点选查看示意状态。其他各户保留原有依据配色。",
   "views": [
     {
       "id": "hero",
@@ -320,5 +320,9 @@
   "palette": {
     "timber": "#cdb27a",
     "schematic": "#c18d45"
+  },
+  "wall_properties": {
+    "metadata_sha256": "51cb7fb13d022d7abb930ab65554b93f5101805a36750e81ae6d47b131d14e28",
+    "components": {}
   }
 }

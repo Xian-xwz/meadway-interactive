@@ -8,6 +8,16 @@ python tools/package_viewer.py --model-package <模型输出目录>/delivery --o
 
 B的builder自动生成规范模型、轻量索引、完整资料和原精度单件GLB。当前本地样例为项目Change目录下的local-viewer，配套local-viewer.manifest.json覆盖全部运行文件。后续保留整包目录结构完成本地预览或进入发布阶段。
 
+## F专业目录和工程详情候选
+
+目录依据[Agent留言板Issue3](https://github.com/Xian-xwz/agent-board/issues/3)：共用控制置顶，ST八组/ARC五组；三级入口连接现有筛选或选中对象资料，缺数据标待提供。切专业保留同一模型、视角、楼层及对象。墙体主题为主动选择的候选色表，缺来源显示未知，ARC沿用材质。
+
+详情消费同修订完整构件的`parameters.viewer`；输入说明位于项目Change的`详情展示输入.md`。构造、支承、输入、梁结果、固定结果、原图与计算书、确认及CAD分开显示。确认和CAD必须与当前计算绑定同一对象、修订和输入，完整记录才显示有效。网页只读，不计算、不登记确认或写CAD。
+
+来源仅同包PNG/JPEG/WebP和Markdown/纯文本，点开才读取并核摘要；Markdown按纯文本提供打开入口。换选或关窗释放来源和迟到响应，手机详情可关闭。原始PDF/DWG继续留在上游。
+
+本轮独立交付位于`changes/meadway-semantic-viewer/local-viewer-v3`（实际整屋，工程数据未接）及`fixture-viewer-v1`（醒目标测试，数值与记录为fixture）。原B交付包保持原样。真实E字段绑定、设计尺寸驱动模型、正式色表批准、物理手机与工程师验收待完成。
+
 以下为既有项目说明。
 # Meadway interactive model
 

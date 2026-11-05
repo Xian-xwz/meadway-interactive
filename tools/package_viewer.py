@@ -23,7 +23,7 @@ def package(model, viewer, output):
         if sha(model / filename) != summary[key]:
             raise ValueError("模型包修订摘要不符")
     runtime = ["index.html", "engine.js", "viewer.js", "instances.js",
-               "component-details.js", "style.css"]
+               "component-details.js", "presentation.js", "style.css"]
     for name in runtime:
         if not (viewer / name).is_file():
             raise ValueError("查看器缺少 " + name)
@@ -33,6 +33,12 @@ def package(model, viewer, output):
     shutil.copytree(viewer / "vendor", output / "vendor")
     cfg = json.loads((viewer / "scene.json").read_text("utf-8"))
     cfg.update(model="./model.glb", metadata="./model.light.json")
+    # 主题索引仅投影本包的墙体来源属性，不携带计算书或第二份事实。
+    full = json.loads((model / "model.json").read_text("utf-8"))
+    cfg["wall_properties"] = {"metadata_sha256": summary["metadata_sha256"],
+        "components": {row["id"]: row["parameters"]["viewer"]["wall_attributes"]
+                       for row in full["components"] if row.get("group") == "walls"
+                       and row.get("parameters", {}).get("viewer", {}).get("wall_attributes")}}
     if cfg.get("ground"):
         shutil.copyfile(viewer / "ground.json", output / "ground.json")
     (output / "scene.json").write_text(json.dumps(cfg, ensure_ascii=False, indent=2) + "\n", "utf-8")

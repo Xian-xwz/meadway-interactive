@@ -1,10 +1,13 @@
 
 import * as T from 'three';import {GLTFLoader} from './vendor/GLTFLoader.js';
-const [cfg,meta]=await Promise.all([fetch('./scene.json').then(r=>r.json()),fetch('./metadata.json').then(r=>r.json())]);
+const cfg=await fetch('./scene.json').then(r=>r.json());
+const metadataURL=new URL(cfg.metadata||'./metadata.json',location.href);
+const meta=await fetch(metadataURL).then(r=>r.json());
 const palette={wall:'#dfd6c1',opening:'#d8c9a7',floor:'#bbb5a2',roof:'#476e67',stairs:'#b69563',cut:'#526e64',...cfg.palette};
 const scene=new T.Scene();scene.background=new T.Color('#f3efe5');const renderer=new T.WebGLRenderer({antialias:true,preserveDrawingBuffer:true});renderer.setPixelRatio(1);renderer.localClippingEnabled=true;renderer.shadowMap.enabled=true;renderer.shadowMap.type=T.PCFSoftShadowMap;renderer.outputColorSpace=T.SRGBColorSpace;renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=1.15;document.querySelector('#viewport').prepend(renderer.domElement);
 scene.add(new T.HemisphereLight(0xfffaef,0xb5bdae,1.7));const sun=new T.DirectionalLight(0xfff5e1,2.6);scene.add(sun,sun.target);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);sun.shadow.normalBias=.025;sun.shadow.bias=-.0002;
-const camera=new T.OrthographicCamera(-20,20,12,-12,.01,500),model=(await new GLTFLoader().loadAsync('./model.glb')).scene;scene.add(model);model.updateMatrixWorld(true);
+const gltfLoader=new GLTFLoader();
+const camera=new T.OrthographicCamera(-20,20,12,-12,.01,500),model=(await gltfLoader.loadAsync(cfg.model||'./model.glb')).scene;scene.add(model);model.updateMatrixWorld(true);
 const byName=new Map();model.traverse(o=>{if(o.name){if(byName.has(o.name))throw Error('重复模型ID '+o.name);byName.set(o.name,o);}});
 const parts=[],boxes=[],roofAngles=[],caps=new T.Group();scene.add(caps);const edges=[];
 for(const c of meta.components){const o=byName.get(c.id);if(!o)throw Error('缺失命名实体 '+c.id);const box=new T.Box3().setFromObject(o),actual={id:c.id,group:c.group,floor:c.floor,block:c.block,min:box.min.toArray(),max:box.max.toArray()};
@@ -56,4 +59,6 @@ function fit(view,w,h){camera.up.set(0,1,0);const target=center.clone();if(view.
  else{const pts=[...parts.filter(p=>view.kind==='plan'&&!view.block?p.c.group!=='roof':p.o.visible).flatMap(p=>corners(p.box)),...(groundGroup.visible?groundBoxes.flatMap(corners):[])].map(p=>p.applyMatrix4(camera.matrixWorldInverse)),xs=pts.map(p=>p.x),ys=pts.map(p=>p.y),cx=(Math.min(...xs)+Math.max(...xs))/2,cy=(Math.min(...ys)+Math.max(...ys))/2;const area=view.clean?[.03,.97,.03,.97]:[.07,.93,.20,.84],fracW=area[1]-area[0],fracH=area[3]-area[2],span=Math.max((Math.max(...ys)-Math.min(...ys))/2/fracH,(Math.max(...xs)-Math.min(...xs))/2/(w/h)/fracW);const centerNdcY=1-area[2]-area[3];camera.left=-span*w/h+cx;camera.right=span*w/h+cx;camera.top=span+cy-centerNdcY*span;camera.bottom=-span+cy-centerNdcY*span;}
  camera.updateProjectionMatrix();camera.updateMatrixWorld();}
 
-const {install}=await import('./viewer.js');install({T,cfg,meta,scene,renderer,camera,model,parts,groundGroup,groundBoxes,groundData,stage,sun,caps,sectionCap});
+const {createInstances}=await import('./instances.js');
+const instances=createInstances(scene,parts);
+const {install}=await import('./viewer.js');install({T,cfg,meta,metadataURL,gltfLoader,instances,scene,renderer,camera,model,parts,groundGroup,groundBoxes,groundData,stage,sun,caps,sectionCap});

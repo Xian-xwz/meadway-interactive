@@ -16,3 +16,4 @@
 #catalog-all{margin-top:8px}
 @media(pointer:coarse){.catalog button{min-height:44px}}
 @media(max-width:580px){aside .catalog{grid-column:1/-1}}
+.detail-model{display:block;min-height:44px;padding:8px;border:1px solid var(--line);border-radius:4px;background:transparent;margin:10px 0}

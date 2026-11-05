@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "profile": "architectural-framework",
-  "model": "./model.glb",
-  "metadata": "./metadata.json",
+  "model": "./delivery-v2/model.glb",
+  "metadata": "./delivery-v2/model.light.json",
   "brand": "MAPLEXIAN",
   "projectLabel": "21 MEADWAY · LOTS 1–6",
   "levels": {

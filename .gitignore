@@ -4,3 +4,5 @@
 .env*
 *.log
 server.json
+/delivery*/
+__pycache__/

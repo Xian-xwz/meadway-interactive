@@ -1,3 +1,14 @@
+# 当前候选的本地交付
+
+本分支通过既有查看器消费builder生成的同修订模型包。完整运行资源由tools/package_viewer.py组装，交付清单放在输出目录旁。下面命令在网页仓目录执行，输出目录选用新的本地路径。
+
+```text
+python tools/package_viewer.py --model-package <模型输出目录>/delivery --out <新的静态包目录>
+```
+
+B的builder自动生成规范模型、轻量索引、完整资料和原精度单件GLB。当前本地样例为项目Change目录下的local-viewer，配套local-viewer.manifest.json覆盖全部运行文件。后续保留整包目录结构完成本地预览或进入发布阶段。
+
+以下为既有项目说明。
 # Meadway interactive model
 
 An interactive architectural study of 21 Meadway, with terrain, two floor plans, a section view, six-home roof trusses and upper-floor timber framing. English labels include Chinese translations. The viewer uses one shared model for every view.

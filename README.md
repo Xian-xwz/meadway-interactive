@@ -20,3 +20,5 @@ GitHub Pages serves the main branch root. Runtime assets use relative paths; ser
 ## 2026-11-06 · r9 风与连接复核
 
 GAP-02两片过梁详情增加16个风敏感性情景、48个响应、逐节点容量比较，以及JSD130mm/400mm钢带安装候选与六组缺项。状态为REVIEW：场地风与节点安装尚未确认，未完成完整工程设计，未落CAD。保留r8重力资料，模型GLB及其他构件不变。
+
+发布记录：0885ed2首次构建成功，Pages在syncing_files超时取消。重新保存原main/root发布来源后再次发布；工程资料和模型保持相同，线上验收单独记录。

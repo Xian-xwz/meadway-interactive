@@ -15,3 +15,8 @@ Drag to orbit, scroll to zoom, right-drag to pan. On touch screens use one finge
 This is an architectural visualization, not a structural design. Foundations are not designed. Bearing levels, missing roof sections and selected details remain schematic. Original PDF/DWG files and local development records are excluded; derived model data is publicly downloadable.
 
 GitHub Pages serves the main branch root. Runtime assets use relative paths; serve over HTTP(S). Three.js and OrbitControls r160 are MIT licensed; see vendor/THREE-LICENSE.txt.
+
+
+## 2026-11-06 · r9 风与连接复核
+
+GAP-02两片过梁详情增加16个风敏感性情景、48个响应、逐节点容量比较，以及JSD130mm/400mm钢带安装候选与六组缺项。状态为REVIEW：场地风与节点安装尚未确认，未完成完整工程设计，未落CAD。保留r8重力资料，模型GLB及其他构件不变。

@@ -8,6 +8,7 @@ Interactive architectural study of 21 Meadway: terrain, two floors, roof trusses
 - Lot 3: the two end positions S5/S18 are darker; the nine interior positions are lighter. S18 retains its two plies. Missing manufacturer sections remain labelled schematic independently of colour.
 - Shared view/layer controls, ST/ARC catalogs, member selection and on-demand detail views are available. Select a member to see construction, support, engineering status and available source references.
 - Lintels have not yet been replaced by approved opening-specific designs. Missing calculations, confirmations and CAD receipts are shown as missing. This page does not calculate, approve designs or write CAD.
+- Lintel evidence r8 adds the 1200 mm GAP-02 opening's gravity design envelope, SLS wind scenarios, connection candidates and support navigation. Select either GAP-02 lintel ply in the Lots 1–3 upper-floor view to inspect the results and source references. The design remains under review: site wind/topography, the full connection chain and engineer confirmation are outstanding.
 
 Drag to orbit, scroll to zoom, right-drag to pan. On touch screens use one finger to orbit and two fingers to zoom/pan. Open Shared Controls for views, floors, roof and truss visibility. Use solid/frame/overlay modes for upper walls. Selected engineering details can be closed on mobile.
 

@@ -61,7 +61,8 @@
    <details class="catalog-group"><summary>Walls / 墙体</summary>
     <button type="button" data-catalog-filter="walls framing" aria-pressed="false">Walls & framing / 墙体与墙架</button>
     <button type="button" data-catalog-filter="framing" aria-pressed="false" data-catalog-role="stud king_stud jack_stud">Posts / 柱</button>
-    <button type="button" data-catalog-filter="framing" aria-pressed="false" data-catalog-role="lintel">Lintels / 过梁</button>
+    <button type="button" data-catalog-filter="framing" aria-pressed="false" data-catalog-role="lintel head_trimmer">Lintels / Headers · 过梁与上横档</button>
+    <a href="upper-lintels-r14.html" target="_blank" rel="noopener">上层60洞：选型清单与位置 · 待工程师确认</a>
     <button type="button" data-detail-focus="wall">Bracing / 抗侧力</button>
    </details>
    <details class="catalog-group"><summary>Roofs / 屋盖</summary>
@@ -111,7 +112,7 @@
 </aside>
 </main>
 <dialog id="source-dialog" aria-labelledby="source-title"><button id="source-close" type="button">Close / 关闭</button><h2 id="source-title"></h2><div id="source-content"></div></dialog>
-<footer><div>Upper-floor wall framing + six-home roof layout. Lintels, window levels, connections and selected supports are schematic. Foundations are not designed.</div><small>二层墙架与六户屋架；过梁、窗台高度、连接与部分支承为示意。地形和平台沿用已核模型，基础未设计。</small></footer>
+<footer><div>Upper-floor wall framing + six-home roof layout. Opening members have conditional table selections; levels and connections remain under review. Foundations are not designed.</div><small>二层墙架与六户屋架；洞口构件已有条件查表方案；标高、连接与部分支承待核。地形和平台沿用已核模型，基础未设计。</small></footer>
 <script>
 const fail=e=>{document.querySelector('#loading').hidden=false;document.querySelector('#loading').textContent='Unable to load model / 模型加载失败：'+(e.reason?.message||e.message||'Please reload / 请刷新页面');};window.addEventListener('error',fail);window.addEventListener('unhandledrejection',fail);
 </script><script type="module" src="engine.js"></script></body></html>

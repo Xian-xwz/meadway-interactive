@@ -1,0 +1,7626 @@
+{
+  "passed": true,
+  "count": 1904,
+  "checks": [
+    {
+      "name": "60个独立洞口，各表一一对应",
+      "pass": true
+    },
+    {
+      "name": "r14原GLB保留",
+      "pass": true
+    },
+    {
+      "name": "r14元数据保留",
+      "pass": true
+    },
+    {
+      "name": "r14原事实保留",
+      "pass": true
+    },
+    {
+      "name": "5107构件身份保持",
+      "pass": true
+    },
+    {
+      "name": "新GLB哈希与元数据一致",
+      "pass": true
+    },
+    {
+      "name": "新事实与模型一致",
+      "pass": true
+    },
+    {
+      "name": "轻入口绑定完整元数据",
+      "pass": true
+    },
+    {
+      "name": "5个原未绑定端点都有厂家支承墙",
+      "pass": true
+    },
+    {
+      "name": "GAP-00 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-00 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-00 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-00 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-00 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-00 厂家墙带覆盖净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-00 采用8.9",
+      "pass": true
+    },
+    {
+      "name": "GAP-00-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-00-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-00-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-00-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-00-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-00-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-00-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-00-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-00-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-00-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-00-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-00-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-00-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-00-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-00-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-00-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-00-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-00-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-00-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-00-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-00-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-00-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-00-HIGH-4 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-00-HIGH-5 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-00-HIGH-6 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-00 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-01 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-01 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-01 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-01 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-01 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-01 厂家墙带覆盖净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-01 采用8.9",
+      "pass": true
+    },
+    {
+      "name": "GAP-01-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-01-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-01-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-01-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-01-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-01-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-01-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-01-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-01-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-01-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-01-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-01-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-01-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-01-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-01-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-01-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-01-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-01-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-01-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-01-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-01-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-01 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-02 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-02 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-02 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-02 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-02 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-02 厂家墙带覆盖净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-02 采用8.9",
+      "pass": true
+    },
+    {
+      "name": "GAP-02-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-02-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-02-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-02-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-02-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-02-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-02-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-02-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-02-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-02-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-02-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-02-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-02-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-02-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-02-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-02-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-02-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-02-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-02-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-02-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-02-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-02-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-02-HIGH-4 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-02 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-03 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-03 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-03 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-03 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-03 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-03 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-03 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-03-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-03-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-03-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-03-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-03-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-03-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-03-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-03-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-03-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-03-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-03-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-03-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-03-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-03-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-03-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-03-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-03-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-03-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-03-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-03-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-03-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-03 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-04 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-04 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-04 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-04 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-04 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-04 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-04 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-04-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-04-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-04-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-04-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-04-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-04-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-04-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-04-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-04-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-04-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-04-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-04-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-04-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-04-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-04-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-04-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-04-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-04-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-04-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-04-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-04-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-04-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-04-HIGH-4 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-04 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-05 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-05 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-05 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-05 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-05 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-05 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-05 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-05-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-05-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-05-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-05-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-05-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-05-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-05-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-05-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-05-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-05-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-05-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-05-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-05-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-05-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-05-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-05-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-05-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-05-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-05-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-05-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-05-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-05-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-05-HIGH-4 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-05-HIGH-5 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-05 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-06 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-06 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-06 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-06 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-06 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-06 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-06 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-06-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-06-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-06-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-06-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-06-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-06-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-06-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-06-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-06-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-06-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-06-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-06-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-06-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-06-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-06-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-06-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-06-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-06-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-06-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-06-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-06-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-06 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-07 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-07 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-07 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-07 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-07 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-07 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-07 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-07-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-07-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-07-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-07-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-07-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-07-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-07-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-07-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-07-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-07-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-07-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-07-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-07-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-07-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-07-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-07-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-07-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-07-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-07-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-07-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-07-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-07-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-07-HIGH-4 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-07 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-08 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-08 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-08 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-08 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-08 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-08 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-08 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-08-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-08-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-08-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-08-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-08-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-08-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-08-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-08-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-08-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-08-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-08-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-08-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-08-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-08-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-08-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-08-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-08-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-08-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-08-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-08-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-08-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-08-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-08 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-09 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-09 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-09 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-09 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-09 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-09 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-09 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-09-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-09-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-09-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-09-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-09-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-09-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-09-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-09-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-09-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-09-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-09-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-09-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-09-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-09-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-09-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-09-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-09-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-09-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-09-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-09-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-09-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-09-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-09 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-10 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-10 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-10 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-10 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-10 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-10 厂家墙带覆盖净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-10 采用8.9",
+      "pass": true
+    },
+    {
+      "name": "GAP-10-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-10-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-10-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-10-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-10-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-10-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-10-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-10-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-10-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-10-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-10-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-10-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-10-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-10-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-10-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-10-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-10-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-10-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-10-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-10-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-10-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-10 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-11 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-11 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-11 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-11 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-11 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-11 厂家墙带覆盖净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-11 采用8.9",
+      "pass": true
+    },
+    {
+      "name": "GAP-11-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-11-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-11-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-11-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-11-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-11-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-11-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-11-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-11-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-11-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-11-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-11-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-11-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-11-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-11-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-11-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-11-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-11-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-11-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-11-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-11-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-11-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-11-HIGH-4 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-11 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-12 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-12 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-12 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-12 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-12 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-12 厂家墙带覆盖净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-12 采用8.9",
+      "pass": true
+    },
+    {
+      "name": "GAP-12-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-12-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-12-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-12-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-12-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-12-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-12-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-12-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-12-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-12-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-12-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-12-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-12-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-12-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-12-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-12-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-12-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-12-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-12-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-12-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-12-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-12-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-12-HIGH-4 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-12 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-13 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-13 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-13 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-13 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-13 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-13 厂家墙带覆盖净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-13 采用8.9",
+      "pass": true
+    },
+    {
+      "name": "GAP-13 山墙LD包络在2m内",
+      "pass": true
+    },
+    {
+      "name": "GAP-13 邻榀间距范围",
+      "pass": true
+    },
+    {
+      "name": "GAP-13 不冒用MiTek普通类别",
+      "pass": true
+    },
+    {
+      "name": "GAP-13 原表独立格点复核",
+      "pass": true
+    },
+    {
+      "name": "GAP-13-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-13-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-13-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-13-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-13-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-13-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-13-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-13-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-13-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-13-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-13-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-13-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-13-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-13-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-13-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-13-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-13-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-13-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-13-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-13-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-13 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-14 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-14 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-14 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-14 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-14 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-14 厂家墙带覆盖净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-14 采用8.9",
+      "pass": true
+    },
+    {
+      "name": "GAP-14 山墙LD包络在2m内",
+      "pass": true
+    },
+    {
+      "name": "GAP-14 邻榀间距范围",
+      "pass": true
+    },
+    {
+      "name": "GAP-14 不冒用MiTek普通类别",
+      "pass": true
+    },
+    {
+      "name": "GAP-14 原表独立格点复核",
+      "pass": true
+    },
+    {
+      "name": "GAP-14-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-14-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-14-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-14-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-14-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-14-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-14-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-14-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-14-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-14-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-14-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-14-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-14-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-14-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-14-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-14-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-14-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-14-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-14-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-14-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-14-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-14-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-14 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-15 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-15 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-15 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-15 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-15 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-15 厂家墙带覆盖净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-15 采用8.9",
+      "pass": true
+    },
+    {
+      "name": "GAP-15 山墙LD包络在2m内",
+      "pass": true
+    },
+    {
+      "name": "GAP-15 邻榀间距范围",
+      "pass": true
+    },
+    {
+      "name": "GAP-15 不冒用MiTek普通类别",
+      "pass": true
+    },
+    {
+      "name": "GAP-15 原表独立格点复核",
+      "pass": true
+    },
+    {
+      "name": "GAP-15-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-15-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-15-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-15-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-15-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-15-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-15-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-15-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-15-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-15-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-15-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-15-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-15-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-15-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-15-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-15-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-15-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-15-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-15-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-15-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-15-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-15-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-15-HIGH-4 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-15-HIGH-5 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-15-HIGH-6 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-15 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-16 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-16 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-16 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-16 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-16 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-16 厂家墙带覆盖净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-16 采用8.9",
+      "pass": true
+    },
+    {
+      "name": "GAP-16 山墙LD包络在2m内",
+      "pass": true
+    },
+    {
+      "name": "GAP-16 邻榀间距范围",
+      "pass": true
+    },
+    {
+      "name": "GAP-16 不冒用MiTek普通类别",
+      "pass": true
+    },
+    {
+      "name": "GAP-16 原表独立格点复核",
+      "pass": true
+    },
+    {
+      "name": "GAP-16-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-16-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-16-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-16-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-16-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-16-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-16-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-16-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-16-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-16-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-16-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-16-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-16-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-16-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-16-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-16-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-16-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-16-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-16-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-16-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-16-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-16 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-17 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-17 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-17 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-17 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-17 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-17 厂家墙带覆盖净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-17 采用8.9",
+      "pass": true
+    },
+    {
+      "name": "GAP-17 山墙LD包络在2m内",
+      "pass": true
+    },
+    {
+      "name": "GAP-17 邻榀间距范围",
+      "pass": true
+    },
+    {
+      "name": "GAP-17 不冒用MiTek普通类别",
+      "pass": true
+    },
+    {
+      "name": "GAP-17 原表独立格点复核",
+      "pass": true
+    },
+    {
+      "name": "GAP-17-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-17-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-17-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-17-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-17-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-17-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-17-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-17-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-17-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-17-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-17-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-17-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-17-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-17-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-17-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-17-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-17-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-17-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-17-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-17-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-17-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-17-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-17-HIGH-4 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-17-HIGH-5 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-17-HIGH-6 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-17 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-18 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-18 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-18 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-18 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-18 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-18 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-18 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-18-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-18-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-18-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-18-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-18-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-18-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-18-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-18-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-18-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-18-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-18-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-18-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-18-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-18-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-18-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-18-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-18-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-18-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-18-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-18-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-18-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-18-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-18-HIGH-4 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-18 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-19 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-19 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-19 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-19 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-19 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-19 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-19 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-19-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-19-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-19-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-19-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-19-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-19-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-19-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-19-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-19-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-19-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-19-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-19-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-19-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-19-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-19-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-19-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-19-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-19-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-19-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-19-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-19-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-19-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-19-HIGH-4 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-19 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-20 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-20 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-20 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-20 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-20 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-20 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-20 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-20-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-20-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-20-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-20-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-20-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-20-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-20-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-20-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-20-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-20-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-20-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-20-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-20-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-20-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-20-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-20-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-20-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-20-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-20-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-20-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-20-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-20-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-20 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-22 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-22 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-22 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-22 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-22 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-22 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-22 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-22-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-22-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-22-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-22-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-22-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-22-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-22-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-22-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-22-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-22-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-22-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-22-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-22-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-22-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-22-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-22-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-22-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-22-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-22-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-22-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-22-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-22-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-22 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-23 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-23 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-23 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-23 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-23 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-23 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-23 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-23-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-23-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-23-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-23-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-23-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-23-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-23-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-23-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-23-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-23-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-23-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-23-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-23-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-23-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-23-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-23-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-23-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-23-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-23-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-23-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-23-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-23-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-23-HIGH-4 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-23-HIGH-5 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-23 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-24 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-24 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-24 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-24 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-24 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-24 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-24 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-24-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-24-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-24-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-24-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-24-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-24-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-24-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-24-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-24-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-24-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-24-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-24-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-24-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-24-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-24-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-24-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-24-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-24-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-24-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-24-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-24-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-24 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-25 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-25 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-25 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-25 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-25 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-25 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-25 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-25-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-25-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-25-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-25-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-25-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-25-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-25-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-25-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-25-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-25-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-25-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-25-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-25-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-25-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-25-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-25-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-25-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-25-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-25-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-25-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-25-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-25-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-25-HIGH-4 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-25-HIGH-5 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-25 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-26 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-26 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-26 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-26 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-26 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-26 厂家墙带覆盖净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-26 采用8.9",
+      "pass": true
+    },
+    {
+      "name": "GAP-26 山墙LD包络在2m内",
+      "pass": true
+    },
+    {
+      "name": "GAP-26 邻榀间距范围",
+      "pass": true
+    },
+    {
+      "name": "GAP-26 不冒用MiTek普通类别",
+      "pass": true
+    },
+    {
+      "name": "GAP-26 原表独立格点复核",
+      "pass": true
+    },
+    {
+      "name": "GAP-26-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-26-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-26-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-26-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-26-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-26-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-26-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-26-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-26-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-26-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-26-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-26-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-26-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-26-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-26-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-26-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-26-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-26-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-26-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-26-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-26 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-27 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-27 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-27 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-27 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-27 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-27 厂家墙带覆盖净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-27 采用8.9",
+      "pass": true
+    },
+    {
+      "name": "GAP-27 山墙LD包络在2m内",
+      "pass": true
+    },
+    {
+      "name": "GAP-27 邻榀间距范围",
+      "pass": true
+    },
+    {
+      "name": "GAP-27 不冒用MiTek普通类别",
+      "pass": true
+    },
+    {
+      "name": "GAP-27 原表独立格点复核",
+      "pass": true
+    },
+    {
+      "name": "GAP-27-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-27-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-27-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-27-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-27-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-27-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-27-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-27-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-27-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-27-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-27-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-27-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-27-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-27-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-27-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-27-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-27-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-27-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-27-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-27-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-27 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-28 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-28 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-28 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-28 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-28 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-28 厂家墙带覆盖净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-28 采用8.9",
+      "pass": true
+    },
+    {
+      "name": "GAP-28 山墙LD包络在2m内",
+      "pass": true
+    },
+    {
+      "name": "GAP-28 邻榀间距范围",
+      "pass": true
+    },
+    {
+      "name": "GAP-28 不冒用MiTek普通类别",
+      "pass": true
+    },
+    {
+      "name": "GAP-28 原表独立格点复核",
+      "pass": true
+    },
+    {
+      "name": "GAP-28-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-28-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-28-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-28-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-28-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-28-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-28-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-28-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-28-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-28-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-28-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-28-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-28-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-28-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-28-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-28-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-28-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-28-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-28-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-28-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-28-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-28-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-28-HIGH-4 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-28 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-29 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-29 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-29 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-29 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-29 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-29 厂家墙带覆盖净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-29 采用8.9",
+      "pass": true
+    },
+    {
+      "name": "GAP-29 山墙LD包络在2m内",
+      "pass": true
+    },
+    {
+      "name": "GAP-29 邻榀间距范围",
+      "pass": true
+    },
+    {
+      "name": "GAP-29 不冒用MiTek普通类别",
+      "pass": true
+    },
+    {
+      "name": "GAP-29 原表独立格点复核",
+      "pass": true
+    },
+    {
+      "name": "GAP-29-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-29-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-29-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-29-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-29-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-29-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-29-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-29-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-29-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-29-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-29-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-29-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-29-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-29-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-29-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-29-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-29-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-29-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-29-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-29-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-29-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-29-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-29 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-30 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-30 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-30 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-30 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-30 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-30 厂家墙带覆盖净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-30 采用8.9",
+      "pass": true
+    },
+    {
+      "name": "GAP-30 山墙LD包络在2m内",
+      "pass": true
+    },
+    {
+      "name": "GAP-30 邻榀间距范围",
+      "pass": true
+    },
+    {
+      "name": "GAP-30 不冒用MiTek普通类别",
+      "pass": true
+    },
+    {
+      "name": "GAP-30 原表独立格点复核",
+      "pass": true
+    },
+    {
+      "name": "GAP-30-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-30-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-30-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-30-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-30-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-30-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-30-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-30-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-30-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-30-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-30-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-30-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-30-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-30-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-30-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-30-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-30-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-30-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-30-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-30-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-30 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-31 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-31 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-31 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-31 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-31 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-31 厂家墙带覆盖净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-31 采用8.9",
+      "pass": true
+    },
+    {
+      "name": "GAP-31 山墙LD包络在2m内",
+      "pass": true
+    },
+    {
+      "name": "GAP-31 邻榀间距范围",
+      "pass": true
+    },
+    {
+      "name": "GAP-31 不冒用MiTek普通类别",
+      "pass": true
+    },
+    {
+      "name": "GAP-31 原表独立格点复核",
+      "pass": true
+    },
+    {
+      "name": "GAP-31-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-31-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-31-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-31-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-31-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-31-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-31-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-31-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-31-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-31-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-31-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-31-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-31-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-31-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-31-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-31-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-31-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-31-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-31-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-31-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-31-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-31-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-31 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-32 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-32 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-32 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-32 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-32 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-32 厂家墙带覆盖净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-32 采用8.9",
+      "pass": true
+    },
+    {
+      "name": "GAP-32 山墙LD包络在2m内",
+      "pass": true
+    },
+    {
+      "name": "GAP-32 邻榀间距范围",
+      "pass": true
+    },
+    {
+      "name": "GAP-32 不冒用MiTek普通类别",
+      "pass": true
+    },
+    {
+      "name": "GAP-32 原表独立格点复核",
+      "pass": true
+    },
+    {
+      "name": "GAP-32-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-32-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-32-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-32-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-32-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-32-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-32-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-32-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-32-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-32-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-32-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-32-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-32-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-32-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-32-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-32-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-32-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-32-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-32-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-32-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-32-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-32-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-32 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-33 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-33 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-33 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-33 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-33 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-33 厂家墙带覆盖净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-33 采用8.9",
+      "pass": true
+    },
+    {
+      "name": "GAP-33 山墙LD包络在2m内",
+      "pass": true
+    },
+    {
+      "name": "GAP-33 邻榀间距范围",
+      "pass": true
+    },
+    {
+      "name": "GAP-33 不冒用MiTek普通类别",
+      "pass": true
+    },
+    {
+      "name": "GAP-33 原表独立格点复核",
+      "pass": true
+    },
+    {
+      "name": "GAP-33-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-33-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-33-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-33-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-33-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-33-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-33-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-33-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-33-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-33-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-33-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-33-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-33-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-33-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-33-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-33-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-33-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-33-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-33-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-33-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-33-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-33-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-33 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-34 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-34 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-34 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-34 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-34 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-34 厂家墙带覆盖净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-34 采用8.9",
+      "pass": true
+    },
+    {
+      "name": "GAP-34 山墙LD包络在2m内",
+      "pass": true
+    },
+    {
+      "name": "GAP-34 邻榀间距范围",
+      "pass": true
+    },
+    {
+      "name": "GAP-34 不冒用MiTek普通类别",
+      "pass": true
+    },
+    {
+      "name": "GAP-34 原表独立格点复核",
+      "pass": true
+    },
+    {
+      "name": "GAP-34-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-34-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-34-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-34-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-34-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-34-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-34-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-34-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-34-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-34-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-34-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-34-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-34-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-34-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-34-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-34-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-34-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-34-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-34-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-34-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-34-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-34-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-34 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-35 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-35 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-35 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-35 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-35 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-35 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-35 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-35-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-35-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-35-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-35-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-35-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-35-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-35-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-35-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-35-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-35-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-35-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-35-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-35-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-35-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-35-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-35-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-35-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-35-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-35-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-35-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-35-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-35 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-36 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-36 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-36 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-36 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-36 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-36 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-36 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-36-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-36-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-36-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-36-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-36-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-36-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-36-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-36-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-36-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-36-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-36-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-36-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-36-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-36-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-36-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-36-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-36-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-36-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-36-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-36-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-36-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-36 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-37 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-37 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-37 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-37 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-37 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-37 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-37 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-37-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-37-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-37-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-37-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-37-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-37-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-37-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-37-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-37-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-37-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-37-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-37-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-37-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-37-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-37-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-37-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-37-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-37-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-37-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-37-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-37-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-37-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-37 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-38 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-38 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-38 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-38 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-38 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-38 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-38 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-38-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-38-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-38-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-38-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-38-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-38-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-38-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-38-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-38-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-38-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-38-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-38-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-38-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-38-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-38-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-38-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-38-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-38-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-38-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-38-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-38-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-38 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-39 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-39 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-39 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-39 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-39 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-39 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-39 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-39-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-39-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-39-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-39-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-39-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-39-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-39-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-39-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-39-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-39-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-39-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-39-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-39-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-39-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-39-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-39-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-39-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-39-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-39-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-39-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-39-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-39 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-40a 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-40a 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-40a 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-40a 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-40a 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-40a 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-40a 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-40a-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-40a-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-40a-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-40a-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-40a-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-40a-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-40a-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-40a-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-40a-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-40a-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-40a-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-40a-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-40a-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-40a-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-40a-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-40a-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-40a-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-40a-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-40a-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-40a-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-40a-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-40a 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-40b 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-41 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-41 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-41 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-41 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-41 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-41 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-41 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-41-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-41-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-41-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-41-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-41-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-41-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-41-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-41-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-41-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-41-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-41-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-41-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-41-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-41-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-41-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-41-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-41-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-41-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-41-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-41-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-41-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-41 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-42 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-42 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-42 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-42 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-42 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-42 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-42 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-42-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-42-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-42-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-42-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-42-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-42-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-42-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-42-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-42-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-42-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-42-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-42-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-42-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-42-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-42-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-42-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-42-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-42-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-42-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-42-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-42-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-42 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-43 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-43 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-43 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-43 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-43 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-43 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-43 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-43-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-43-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-43-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-43-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-43-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-43-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-43-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-43-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-43-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-43-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-43-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-43-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-43-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-43-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-43-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-43-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-43-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-43-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-43-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-43-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-43-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-43 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-44 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-44 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-44 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-44 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-44 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-44 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-44 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-44-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-44-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-44-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-44-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-44-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-44-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-44-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-44-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-44-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-44-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-44-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-44-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-44-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-44-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-44-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-44-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-44-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-44-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-44-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-44-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-44-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-44 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-45 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-45 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-45 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-45 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-45 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-45 厂家墙带覆盖净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-45 采用8.9",
+      "pass": true
+    },
+    {
+      "name": "GAP-45 山墙LD包络在2m内",
+      "pass": true
+    },
+    {
+      "name": "GAP-45 邻榀间距范围",
+      "pass": true
+    },
+    {
+      "name": "GAP-45 不冒用MiTek普通类别",
+      "pass": true
+    },
+    {
+      "name": "GAP-45 原表独立格点复核",
+      "pass": true
+    },
+    {
+      "name": "GAP-45-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-45-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-45-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-45-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-45-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-45-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-45-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-45-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-45-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-45-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-45-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-45-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-45-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-45-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-45-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-45-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-45-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-45-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-45-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-45-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-45-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-45-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-45 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-46 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-46 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-46 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-46 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-46 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-46 厂家墙带覆盖净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-46 采用8.9",
+      "pass": true
+    },
+    {
+      "name": "GAP-46 山墙LD包络在2m内",
+      "pass": true
+    },
+    {
+      "name": "GAP-46 邻榀间距范围",
+      "pass": true
+    },
+    {
+      "name": "GAP-46 不冒用MiTek普通类别",
+      "pass": true
+    },
+    {
+      "name": "GAP-46 原表独立格点复核",
+      "pass": true
+    },
+    {
+      "name": "GAP-46-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-46-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-46-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-46-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-46-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-46-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-46-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-46-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-46-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-46-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-46-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-46-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-46-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-46-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-46-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-46-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-46-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-46-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-46-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-46-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-46-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-46 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-47 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-47 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-47 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-47 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-47 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-47 厂家墙带覆盖净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-47 采用8.9",
+      "pass": true
+    },
+    {
+      "name": "GAP-47 山墙LD包络在2m内",
+      "pass": true
+    },
+    {
+      "name": "GAP-47 邻榀间距范围",
+      "pass": true
+    },
+    {
+      "name": "GAP-47 不冒用MiTek普通类别",
+      "pass": true
+    },
+    {
+      "name": "GAP-47 原表独立格点复核",
+      "pass": true
+    },
+    {
+      "name": "GAP-47-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-47-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-47-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-47-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-47-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-47-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-47-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-47-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-47-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-47-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-47-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-47-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-47-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-47-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-47-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-47-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-47-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-47-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-47-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-47-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-47-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-47 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-48 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-48 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-48 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-48 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-48 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-48 厂家墙带覆盖净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-48 采用8.9",
+      "pass": true
+    },
+    {
+      "name": "GAP-48 山墙LD包络在2m内",
+      "pass": true
+    },
+    {
+      "name": "GAP-48 邻榀间距范围",
+      "pass": true
+    },
+    {
+      "name": "GAP-48 不冒用MiTek普通类别",
+      "pass": true
+    },
+    {
+      "name": "GAP-48 原表独立格点复核",
+      "pass": true
+    },
+    {
+      "name": "GAP-48 PDF1620跨度已进入计算",
+      "pass": true
+    },
+    {
+      "name": "GAP-48-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-48-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-48-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-48-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-48-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-48-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-48-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-48-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-48-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-48-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-48-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-48-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-48-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-48-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-48-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-48-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-48-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-48-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-48-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-48-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-48-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-48-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-48 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-49 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-49 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-49 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-49 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-49 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-49 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-49 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-49-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-49-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-49-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-49-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-49-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-49-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-49-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-49-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-49-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-49-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-49-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-49-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-49-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-49-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-49-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-49-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-49-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-49-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-49-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-49-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-49-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-49 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-50 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-50 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-50 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-50 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-50 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-50 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-50 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-50-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-50-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-50-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-50-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-50-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-50-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-50-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-50-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-50-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-50-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-50-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-50-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-50-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-50-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-50-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-50-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-50-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-50-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-50-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-50-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-50-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-50 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-51 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-51 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-51 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-51 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-51 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-51 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-51 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-51-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-51-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-51-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-51-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-51-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-51-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-51-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-51-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-51-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-51-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-51-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-51-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-51-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-51-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-51-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-51-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-51-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-51-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-51-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-51-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-51-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-51 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-52 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-52 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-52 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-52 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-52 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-52 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-52 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-52-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-52-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-52-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-52-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-52-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-52-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-52-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-52-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-52-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-52-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-52-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-52-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-52-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-52-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-52-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-52-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-52-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-52-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-52-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-52-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-52-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-52-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-52 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-53 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-53 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-53 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-53 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-53 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-53 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-53 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-53-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-53-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-53-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-53-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-53-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-53-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-53-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-53-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-53-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-53-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-53-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-53-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-53-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-53-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-53-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-53-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-53-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-53-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-53-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-53-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-53-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-53 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-54 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-54 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-54 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-54 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-54 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-54 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-54 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-54-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-54-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-54-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-54-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-54-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-54-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-54-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-54-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-54-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-54-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-54-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-54-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-54-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-54-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-54-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-54-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-54-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-54-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-54-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-54-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-54-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-54 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-56 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-56 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-56 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-56 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-56 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-56 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-56 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-56-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-56-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-56-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-56-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-56-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-56-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-56-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-56-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-56-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-56-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-56-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-56-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-56-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-56-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-56-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-56-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-56-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-56-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-56-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-56-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-56-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-56-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-56-HIGH-4 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-56-HIGH-5 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-56 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-57 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-57 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-57 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-57 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-57 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-57 不在厂家外墙或LBW带",
+      "pass": true
+    },
+    {
+      "name": "GAP-57 采用8.15",
+      "pass": true
+    },
+    {
+      "name": "GAP-57-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-57-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-57-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-57-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-57-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-57-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-57-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-57-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-57-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-57-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-57-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-57-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-57-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-57-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-57-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-57-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-57-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-57-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-57-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-57-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-57-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-57-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-57 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-58 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-58 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-58 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-58 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-58 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-58 厂家墙带覆盖净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-58 采用8.9",
+      "pass": true
+    },
+    {
+      "name": "GAP-58-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-58-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-58-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-58-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-58-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-58-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-58-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-58-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-58-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-58-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-58-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-58-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-58-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-58-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-58-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-58-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-58-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-58-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-58-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-58-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-58-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-58 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "GAP-59 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "GAP-59 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-59 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "GAP-59 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "GAP-59 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "GAP-59 厂家墙带覆盖净跨",
+      "pass": true
+    },
+    {
+      "name": "GAP-59 采用8.9",
+      "pass": true
+    },
+    {
+      "name": "GAP-59-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-59-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-59-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-59-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-59-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-59-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-59-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-59-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-59-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-59-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "GAP-59-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-59-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "GAP-59-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-59-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "GAP-59-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "GAP-59-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-59-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "GAP-59-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "GAP-59-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-59-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-59-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-59-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "GAP-59 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01 原CAD墙句柄可追溯",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01 计算净跨覆盖源净跨",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01 模型净跨与建筑沿轴一致",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01 最小截面满足",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01 中央结果存在",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01 厂家墙带覆盖净跨",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01 采用8.9",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01 山墙LD包络在2m内",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01 邻榀间距范围",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01 不冒用MiTek普通类别",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01 原表独立格点复核",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01-LINTEL-0 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01-LINTEL-0 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01-LINTEL-0 角色正确",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01-LINTEL-0 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01-LINTEL-0 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01-LINTEL-0 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01-LINTEL-0 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01-LINTEL-0 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01-LINTEL-0 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01-LINTEL-1 洞净空不变",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01-LINTEL-1 实体梁高正确",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01-LINTEL-1 角色正确",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01-LINTEL-1 事实几何同步",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01-LINTEL-1 详情结果绑定",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01-LINTEL-1 原工程确认未沿用",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01-LINTEL-1 详情哈希",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01-LINTEL-1 单件GLB哈希",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01-LINTEL-1 事实详情同步",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01-HIGH-0 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01-HIGH-1 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01-HIGH-2 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01-HIGH-3 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01-HIGH-4 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01-HIGH-5 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01-HIGH-6 短柱接新梁",
+      "pass": true
+    },
+    {
+      "name": "EXPLICIT-FF-A-OPEN-01-01 本地逐洞报告回填",
+      "pass": true
+    },
+    {
+      "name": "无关构件完整元数据保持",
+      "pass": true
+    },
+    {
+      "name": "仅125实体变更",
+      "pass": true
+    },
+    {
+      "name": "证据哈希 openings",
+      "pass": true
+    },
+    {
+      "name": "证据哈希 walls",
+      "pass": true
+    },
+    {
+      "name": "证据哈希 trusses",
+      "pass": true
+    },
+    {
+      "name": "证据哈希 architecture",
+      "pass": true
+    },
+    {
+      "name": "证据哈希 decisions",
+      "pass": true
+    },
+    {
+      "name": "证据哈希 pdf",
+      "pass": true
+    },
+    {
+      "name": "证据哈希 standard",
+      "pass": true
+    },
+    {
+      "name": "证据哈希 mitek",
+      "pass": true
+    },
+    {
+      "name": "证据哈希 pilot",
+      "pass": true
+    },
+    {
+      "name": "证据哈希 model",
+      "pass": true
+    },
+    {
+      "name": "证据哈希 registration",
+      "pass": true
+    },
+    {
+      "name": "证据哈希 segments-1-3",
+      "pass": true
+    },
+    {
+      "name": "证据哈希 inventory-1-3",
+      "pass": true
+    },
+    {
+      "name": "证据哈希 ps1-1-3",
+      "pass": true
+    },
+    {
+      "name": "证据哈希 segments-4-6",
+      "pass": true
+    },
+    {
+      "name": "证据哈希 inventory-4-6",
+      "pass": true
+    },
+    {
+      "name": "证据哈希 ps1-4-6",
+      "pass": true
+    },
+    {
+      "name": "证据哈希 audit",
+      "pass": true
+    },
+    {
+      "name": "证据哈希 basis",
+      "pass": true
+    }
+  ],
+  "engineering_approved": false,
+  "cad_written": false,
+  "published": false,
+  "scope": "本次60洞来源绑定、中央格点及模型增量快速验证；非整项目正式审核"
+}

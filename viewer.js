@@ -1,6 +1,6 @@
 import {OrbitControls} from './vendor/OrbitControls.js';
 import {createDetailLoader} from './component-details.js';
-import {renderPresentation,wallValue} from './presentation.js';
+import {renderPresentation,wallValue,componentTitle} from './presentation.js';
 
 export function install(env){
  const {T,scene,renderer,camera,parts,model,cfg,groundGroup,groundBoxes,stage,sun,caps,sectionCap,instances}=env;
@@ -23,12 +23,15 @@ export function install(env){
  const themeColors={...candidateColors,...cfg.semantic_palette?.colors};
  const wallProperties=cfg.wall_properties?.metadata_sha256===env.meta.metadata_sha256?cfg.wall_properties.components||{}:{};
  const baseColors=new Map(parts.flatMap(p=>p.meshes.map(m=>[m,m.material.color.clone()])));
+ const selectionColors=new Map(),selectionColor='#0077cc';
+ function highlight(mesh){mesh.material.color.set(selectionColor);mesh.material.emissive.set(selectionColor).multiplyScalar(.18);}
  function applyTheme(){
   const effective=catalog==='arc'?'material':wallTheme;
   for(const p of parts)if(p.c.group==='walls')for(const m of p.meshes){
    if(effective==='material')m.material.color.copy(baseColors.get(m));
    else{const value=wallValue(wallProperties[p.c.id],effective);m.material.color.set(value===null?themeColors.unknown:value?themeColors[effective]:effective==='load_bearing'?themeColors.non_bearing:themeColors.context);}
-   m.material.emissive.copy(m.material.color).multiplyScalar(p===selected?.24:0);
+   m.material.emissive.setHex(0);
+   if(p===selected){selectionColors.set(m,m.material.color.clone());highlight(m);}
   }
   document.querySelector('#wall-theme').disabled=catalog==='arc';
   document.querySelector('#theme-status').textContent=effective==='material'?'Material / 材质色':
@@ -83,19 +86,25 @@ export function install(env){
   releaseLocalModel();
   closeSource();detailLoader.release();
   document.querySelector('#inspector').classList.remove('has-selection');
-  if(selected)for(const m of selected.meshes)m.material.emissive.setHex(0);
+  for(const [m,color] of selectionColors){m.material.color.copy(color);m.material.emissive.setHex(0);}selectionColors.clear();
   selected=null;instances.refresh(null);document.querySelector('#pin').hidden=true;document.querySelector('#clear').hidden=true;
+  document.querySelector('#details').setAttribute('aria-busy','false');
   document.querySelector('#details').replaceChildren(el('p','Click a part of the model. 点击构件查看已有资料。','empty'));dirty=true;
  }
- // 选择只提亮当前材质；目录不写入分类色，也不改变几何身份。
+ // 蓝色用于临时选择，取消时恢复选择前的材质与专业色。
  function select(p){
-  clearSelection();if(!p)return;selected=p;for(const m of p.meshes)m.material.emissive.copy(m.material.color).multiplyScalar(.24);
+  clearSelection();if(!p)return;selected=p;for(const m of p.meshes){selectionColors.set(m,m.material.color.clone());highlight(m);}
   instances.refresh(p);
-  renderDetails(p,p.c);
+  renderDetails(p,p.c,Boolean(p.c.detail));
   if(p.c.detail){
    const status=el('p','Loading component data / 正在读取构件资料','detail-status');
    status.setAttribute('role','status');document.querySelector('#details').append(status);
-   detailLoader.load(p.c,env.meta.project).then(data=>{if(selected===p){renderDetails(p,data);dirty=true;}}).catch(error=>{if(error.name!=='AbortError'&&selected===p)status.textContent='Component data unavailable / 构件资料暂不可用：'+error.message;});
+   document.querySelector('#details').setAttribute('aria-busy','true');
+   detailLoader.load(p.c,env.meta.project).then(data=>{if(selected===p){renderDetails(p,data);dirty=true;}}).catch(error=>{if(error.name!=='AbortError'&&selected===p){
+    document.querySelector('#details').setAttribute('aria-busy','false');
+    status.textContent='资料加载失败，可重试。当前无法判断资料是否齐全。';
+    const reason=el('p',error.message,'field-source'),retry=el('button','重新读取资料','detail-retry');retry.onclick=()=>select(p);status.after(reason,retry);
+   }});
   }
  }
  function releaseLocalModel(){
@@ -144,22 +153,26 @@ export function install(env){
   }
   finally{button.disabled=false;}
  }
- function renderDetails(p,c){
-  const d=document.querySelector('#details');d.replaceChildren(el('h2',groupText[c.group]||c.group),el('div',c.id,'id'));
-  d.append(el('span',c.block==='A'?'Lots 1–3':'Lots 4–6','chip'),el('span',c.floor==='GF'?'Ground floor / 一层':c.floor==='FF'?'First floor / 二层':c.floor,'chip'));
+ function renderDetails(p,c,pending=false){
+  const d=document.querySelector('#details');d.setAttribute('aria-busy',String(pending));
+  p.displayLabel=componentTitle(c);d.replaceChildren(el('h2',p.displayLabel));
+  d.append(el('p',c.id.replace(/-LINTEL-\d+$/,''),'id'));
+  document.querySelector('#clear').hidden=false;document.querySelector('#inspector').classList.add('has-selection');
+  if(pending){if(!matchMedia('(max-width:580px)').matches)document.querySelector('#inspector').scrollIntoView({block:'start'});dirty=true;return;}
+  const provenance=el('details','','detail-provenance');provenance.append(el('summary','构件编号、版本与模型参数'),el('p',c.id,'id'));
   if(c.role)d.append(el('p',({stud:'Stud / 立柱',king_stud:'Full-height stud / 通高边柱',jack_stud:'Lintel support / 过梁支承柱',lintel:'Lintel / 过梁',head_trimmer:'Head trimmer / 非承重上横档',sill:'Window sill / 窗台板',bottom_plate:'Bottom plate / 底板',top_plate:'Top plate / 顶板',ribbon:'Capping plate / 天花边缘固定板',cripple:'Short stud / 短柱',nogging:'Nogging / 横撑',corner:'Corner / 转角构件'})[c.role]||c.role));
   if(c.truss_id)d.append(el('p',`Lot ${c.lot} · ${c.truss_type} · ${c.profile_status==='measured'?'Supplied section / 已有截面详图':'Schematic section / 截面示意'}`));const params=Object.entries(c.parameters||{}).filter(([key])=>!['shared_object','viewer'].includes(key)),schematic=params.some(([,v])=>v?.status==='schematic');
-  if(schematic)d.append(el('span','Contains schematic values / 含示意参数','chip warning'));
+  if(schematic)provenance.append(el('span','Contains schematic values / 含示意参数','chip warning'));
   for(const reference of p.c.object_refs||[]){
-   d.append(el('p',`Object / 对象：${reference.object_id}`),el('p',`Revision / 修订：${reference.object_revision} · ${reference.consumption_mode==='candidate_preview'?'Design preview / 设计候选':'Source projection / 来源投影'}`));
+   provenance.append(el('p',`Object / 对象：${reference.object_id}`),el('p',`Revision / 修订：${reference.object_revision} · ${reference.consumption_mode==='candidate_preview'?'Design preview / 设计候选':'Source projection / 来源投影'}`));
   }
   d.append(renderPresentation(c,p.c.object_refs||[],{selectRelated:(id,button)=>{const target=partById.get(id);if(target)select(target);else button.after(el('p','Related component not in this model / 当前模型无此关联构件'));},openSource}));
-  const size=p.box.getSize(new T.Vector3());d.append(el('p',`Model extents / 模型包围尺寸：${size.toArray().map(x=>x.toFixed(2)).join(' × ')} m`));
-  for(const[key,value]of params){const item=el('details',''),summary=el('summary',`${key} · ${statuses[value?.status]||value?.status||'Unknown / 未知'}`);item.append(summary,el('p',value?.locator||'No locator'),el('p',value?.note||''));d.append(item);}
+  const size=p.box.getSize(new T.Vector3());provenance.append(el('p',`Model extents / 模型包围尺寸：${size.toArray().map(x=>x.toFixed(2)).join(' × ')} m`));
+  for(const[key,value]of params){const item=el('details',''),summary=el('summary',`${key} · ${statuses[value?.status]||value?.status||'Unknown / 未知'}`);item.append(summary,el('p',value?.locator||'No locator'),el('p',value?.note||''));provenance.append(item);}
+  provenance.append(el('p','包围尺寸表示模型外形，不等于设计截面。'));d.append(provenance);
   if(p.c.detail_model){const button=el('button',localModel?'Unload local model / 卸载局部模型':'Load local model / 加载局部模型','detail-model');button.onclick=()=>showLocalModel(p,button);d.append(button);}
   d.append(el('span','Selected / 已选中','chip'),el('p','','selection-visibility'));
   updateSelectionVisibility();
-  d.append(el('p','Model properties only; dimensions above are bounding extents. 此处为已有模型资料，包围尺寸不等于设计截面。'));
   document.querySelector('#clear').hidden=false;document.querySelector('#inspector').classList.add('has-selection');
   if(!matchMedia('(max-width:580px)').matches)document.querySelector('#inspector').scrollIntoView({block:'start'});dirty=true;
  }
@@ -191,7 +204,7 @@ export function install(env){
  }
  function pick(x,y){
   const rect=canvas.getBoundingClientRect();pointer.set((x-rect.left)/rect.width*2-1,1-(y-rect.top)/rect.height*2);camera.updateMatrixWorld();ray.setFromCamera(pointer,camera);
-  const targets=[...parts.filter(p=>p.o.visible&&!(wallMode==='overlay'&&isEnvelope(p.c))).flatMap(p=>p.meshes.filter(m=>!instances.owns(m))),...instances.targets(),...caps.children];if(groundGroup.visible)groundGroup.traverse(o=>{if(o.isMesh)targets.push(o);});if(localModel?.visible)localModel.traverse(o=>{if(o.isMesh)targets.push(o);});
+  const targets=[...parts.filter(p=>p.o.visible&&!(wallMode==='overlay'&&isEnvelope(p.c))).flatMap(p=>p.meshes.filter(m=>!instances.owns(m)||p===selected&&!localModel)),...instances.targets(),...caps.children];if(groundGroup.visible)groundGroup.traverse(o=>{if(o.isMesh)targets.push(o);});if(localModel?.visible)localModel.traverse(o=>{if(o.isMesh)targets.push(o);});
   const hit=ray.intersectObjects(targets,false).find(h=>h.object.visible&&!(h.object.material.clippingPlanes||[]).some(pl=>pl.distanceToPoint(h.point)<-1e-5));
   select(hit?(instances.partFor(hit)||meshMap.get(hit.object)):null);return selected?.c.id||null;
  }
@@ -214,7 +227,7 @@ export function install(env){
  allSystems.onclick=()=>{if(!catalogFilter)return;catalogFilter=null;updateCatalog();applyView(false);};
  updateCatalog();applyTheme();
  document.querySelector('#wall-theme').onchange=e=>{wallTheme=e.target.value;applyTheme();};
- for(const b of document.querySelectorAll('[data-detail-focus]'))b.onclick=()=>{const section=document.getElementById('detail-'+b.dataset.detailFocus);if(section)section.scrollIntoView({block:'nearest'});else document.querySelector('#catalog-status').textContent='Select a component to view its supplied data / 先选择构件查看对应资料';};
+ for(const b of document.querySelectorAll('[data-detail-focus]'))b.onclick=()=>{const section=document.getElementById('detail-'+b.dataset.detailFocus);if(section){let parent=section.parentElement;while(parent){if(parent.tagName==='DETAILS')parent.open=true;parent=parent.parentElement;}section.scrollIntoView({block:'nearest'});}else document.querySelector('#catalog-status').textContent='Select a component to view its supplied data / 先选择构件查看对应资料';};
  for(const b of document.querySelectorAll('[data-view]'))b.onclick=()=>preset(b.dataset.view);
  for(const b of document.querySelectorAll('[data-wall]'))b.onclick=()=>{wallMode=b.dataset.wall;applyView(false);};
  for(const key of ['upper','middle','lower'])document.querySelector('#'+key).onchange=e=>{layers[key]=e.target.checked;view='hero';applyView(false);};
@@ -228,7 +241,7 @@ export function install(env){
  function resize(){const w=viewport.clientWidth,h=viewport.clientHeight;renderer.setSize(w,h);if(initialized)fit(camera.position.clone().sub(controls.target).toArray());else{const half=(camera.top-camera.bottom)/2;camera.left=-half*w/h;camera.right=half*w/h;camera.updateProjectionMatrix();}dirty=true;}
  new ResizeObserver(resize).observe(viewport);resize();applyView();initialized=true;
  function draw(){requestAnimationFrame(draw);controls.update();if(!dirty)return;dirty=false;renderer.render(scene,camera);
-  const pin=document.querySelector('#pin');if(selected){const center=selected.box.getCenter(new T.Vector3()),q=center.clone().project(camera),x=(q.x*.5+.5)*viewport.clientWidth,y=(.5-q.y*.5)*viewport.clientHeight;pin.textContent=selected.c.id;pin.hidden=!selected.o.visible||(selected.meshes[0]?.material.clippingPlanes||[]).some(pl=>pl.distanceToPoint(center)<-1e-5)||q.z<-1||q.z>1||Math.abs(q.x)>1||Math.abs(q.y)>1;pin.style.left=Math.min(viewport.clientWidth-100,Math.max(8,x+12))+'px';pin.style.top=Math.max(8,y-24)+'px';}}
+  const pin=document.querySelector('#pin');if(selected){const center=selected.box.getCenter(new T.Vector3()),q=center.clone().project(camera),x=(q.x*.5+.5)*viewport.clientWidth,y=(.5-q.y*.5)*viewport.clientHeight;pin.textContent=selected.displayLabel||selected.c.id;pin.hidden=!selected.o.visible||(selected.meshes[0]?.material.clippingPlanes||[]).some(pl=>pl.distanceToPoint(center)<-1e-5)||q.z<-1||q.z>1||Math.abs(q.x)>1||Math.abs(q.y)>1;pin.style.left=Math.min(viewport.clientWidth-100,Math.max(8,x+12))+'px';pin.style.top=Math.max(8,y-24)+'px';}}
  window.viewer={state:()=>({view,catalog,wallTheme,effectiveTheme:catalog==='arc'?'material':wallTheme,wallColors:Object.fromEntries(parts.filter(p=>p.c.group==='walls').map(p=>[p.c.id,p.meshes[0].material.color.getHexString()])),visible:parts.filter(p=>p.o.visible).length,total:parts.length,wallMode,layers:{...layers},groups:Object.fromEntries([...new Set(parts.map(p=>p.c.group))].map(g=>[g,parts.filter(p=>p.c.group===g&&p.o.visible).length])),upperEnvelope:parts.filter(p=>isEnvelope(p.c)&&p.o.visible).length,framing:parts.filter(p=>p.c.group==='framing'&&p.o.visible).length,opacity:wallMode==='overlay'?.10:1,trusses:parts.filter(p=>p.c.group==='trusses'&&p.o.visible).length,terrain:groundGroup.visible,roof:parts.filter(p=>p.c.group==='roof'&&p.o.visible).length,caps:caps.children.length,selected:selected?.c.id||null,objectRefs:selected?.c.object_refs||[],detail:detailLoader.state(),selectedInstanced:selected?.meshes.some(mesh=>instances.owns(mesh))||false,instances:instances.stats(),renderCalls:renderer.info.render.calls,geometryBuffers:renderer.info.memory.geometries,camera:camera.position.toArray(),target:controls.target.toArray(),zoom:camera.zoom,geometryUnchanged:parts.every((p,i)=>p.o.matrixWorld.toArray().every((x,j)=>Math.abs(x-baseTransforms[i][j])<1e-9))}),project:id=>{const p=parts.find(p=>p.c.id===id);if(!p)return null;const m=p.meshes[0],g=m.geometry,pos=g.attributes.position,ix=g.index;let best=-1,point=new T.Vector3();for(let i=0;i<(ix?ix.count:pos.count);i+=3){const a=[0,1,2].map(j=>new T.Vector3().fromBufferAttribute(pos,ix?ix.getX(i+j):i+j));const area=a[1].clone().sub(a[0]).cross(a[2].clone().sub(a[0])).lengthSq();if(area>best){best=area;point.copy(a[0]).add(a[1]).add(a[2]).multiplyScalar(1/3);}}const q=point.applyMatrix4(m.matrixWorld).project(camera),rect=canvas.getBoundingClientRect();return [rect.left+(q.x*.5+.5)*rect.width,rect.top+(.5-q.y*.5)*rect.height];}};
  document.querySelector('#loading').hidden=true;window.ready=true;draw();
 }

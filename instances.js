@@ -33,14 +33,19 @@ export function createInstances(scene, parts) {
     }
   }
   function refresh(selected, detailedPart = null) {
+    // 选中件使用独立网格着色；其余实例继续批量绘制。
+    for (const [mesh] of membership) mesh.layers.disableAll();
+    if (selected && selected !== detailedPart) {
+      for (const mesh of selected.meshes) if (membership.has(mesh)) mesh.layers.enable(0);
+    }
     for (const record of batches) {
       const {batch, entries} = record;
-      record.visible = entries.filter(entry => entry.part.o.visible && entry.part !== detailedPart);
+      record.visible = entries.filter(entry => entry.part.o.visible && entry.part !== detailedPart && entry.part !== selected);
       batch.count = record.visible.length;
       batch.visible = batch.count > 0;
       for (const [index, entry] of record.visible.entries()) {
         batch.setMatrixAt(index, entry.mesh.matrixWorld);
-        batch.setColorAt(index, new T.Color().setScalar(entry.part === selected ? 1.5 : 1));
+        batch.setColorAt(index, new T.Color(1, 1, 1));
       }
       const material = entries[0].mesh.material;
       batch.material.clippingPlanes = material.clippingPlanes;

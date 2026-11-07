@@ -37,9 +37,45 @@ function fields(parent,rows){
  }
  parent.append(list);
 }
+export function componentTitle(component){
+ const rows=component.parameters?.viewer?.design?.fields||[];
+ const location=rows.find(row=>row.label==='所在位置')?.value||'';
+ const lot=String(location).match(/Lot\s*\d+/)?.[0];
+ const role={lintel:'过梁',head_trimmer:'非承重上横档',jack_stud:'过梁支承柱',king_stud:'通高边柱',stud:'立柱',cripple:'短柱',sill:'窗台板',bottom_plate:'底板',top_plate:'顶板',nogging:'横撑'}[component.role];
+ return [lot,component.floor==='FF'?'二层':component.floor==='GF'?'一层':'',role||'构件'].filter(Boolean).join(' · ');
+}
+function renderSummary(component,refs){
+ const data=component.parameters?.viewer,eng=data?.engineering;
+ if(!data?.design?.fields?.length)return null;
+ const card=node('section',undefined,'component-summary');card.id='detail-summary';
+ card.append(node('h3','先看结论'));
+ const state=engineeringState(eng,refs);
+ const text=state.confirmed?'已有对应修订的工程确认':state.status==='review'?'构件选型已有候选 · 连接仍待复核':stateText[state.status];
+ card.append(node('p',text,'summary-status'));
+ const find=(rows,label)=>rows?.find(row=>row.label===label);
+ const rows=data.design.fields,section=find(rows,'拟用构件'),span=find(rows,'计算净跨'),type=find(rows,'承重分类');
+ const list=node('dl',undefined,'summary-grid');
+ for(const [label,row] of [['拟用构件',section],['计算净跨',span],['承重用途',type],['连接候选',find(eng?.fixing?.fields,'本轮连接路线')]]){
+  if(row)list.append(node('dt',label),node('dd',`${row.value}${row.unit?' '+row.unit:''}`));
+ }
+ card.append(list);
+ const pending=eng?.fixing?.missing||[];
+ if(pending.length){
+  card.append(node('h4','这处还要核实'));const ul=node('ul');
+  for(const item of pending){
+   const short=/实际FF/.test(item)?'柱脚下的二层楼板骨架及向下传力位置':/树种分支/.test(item)?'实际木种，以确定 F 类柱脚做法':/相交/.test(item)?'附加柱与既有通柱的局部排布':item;
+   ul.append(node('li',short));
+  }card.append(ul);
+ }
+ if(state.status==='stale')card.append(node('p','以下数据属于旧修订，请以重新绑定的结果为准。','chip warning'));
+ card.append(node('p',eng?.beam?.limitations||'候选资料以完整计算、适用条件及工程确认记录为准。','summary-boundary'));
+ return card;
+}
 export function renderPresentation(component,refs,{selectRelated,openSource}){
  const data=component.parameters?.viewer||{},root=node('div',undefined,'presentation');
- const section=(key,title)=>{const s=node('section');s.id='detail-'+key;s.append(node('h3',title));root.append(s);return s;};
+ const summary=renderSummary(component,refs);if(summary)root.append(summary);
+ const technical=node('details',undefined,'detail-technical');technical.append(node('summary','展开完整计算、连接与依据'));if(!summary)technical.open=true;root.append(technical);
+ const section=(key,title)=>{const s=node('section');s.id='detail-'+key;s.append(node('h3',title));(key==='sources'||key==='results'?root:technical).append(s);return s;};
  if(data.fixture)root.append(node('p','FIXTURE · Test data / 测试资料，数值与确认均为演示','chip warning'));
  if(component.group==='walls'){
   const wall=section('wall','Wall attributes / 墙体属性');

@@ -1,0 +1,4226 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "opening_id": "GAP-00",
+      "check": "GAP-00-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-00",
+      "check": "GAP-00-HIGH-0JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-00",
+      "check": "GAP-00-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-00",
+      "check": "GAP-00-HIGH-1JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-00",
+      "check": "GAP-00-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-00",
+      "check": "GAP-00-HIGH-2JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-00",
+      "check": "GAP-00-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-00",
+      "check": "GAP-00-HIGH-3JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-00",
+      "check": "GAP-00-HIGH-4接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-00",
+      "check": "GAP-00-HIGH-4JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-00",
+      "check": "GAP-00-HIGH-5接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-00",
+      "check": "GAP-00-HIGH-5JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-00",
+      "check": "GAP-00-HIGH-6接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-00",
+      "check": "GAP-00-HIGH-6JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-00",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-00",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-00",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-00",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-00",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-00",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-00",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-00",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-00",
+      "check": "双拼钉距与穿入",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-00",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-00",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-00",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-00",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-00",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-00",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-01",
+      "check": "GAP-01-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-01",
+      "check": "GAP-01-HIGH-0JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-01",
+      "check": "GAP-01-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-01",
+      "check": "GAP-01-HIGH-1JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-01",
+      "check": "GAP-01-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-01",
+      "check": "GAP-01-HIGH-2JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-01",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-01",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-01",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-01",
+      "check": "双拼钉距与穿入",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-01",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-01",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-01",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-01",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-01",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-01",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-02",
+      "check": "GAP-02-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-02",
+      "check": "GAP-02-HIGH-0JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-02",
+      "check": "GAP-02-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-02",
+      "check": "GAP-02-HIGH-1JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-02",
+      "check": "GAP-02-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-02",
+      "check": "GAP-02-HIGH-2JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-02",
+      "check": "GAP-02-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-02",
+      "check": "GAP-02-HIGH-3JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-02",
+      "check": "GAP-02-HIGH-4接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-02",
+      "check": "GAP-02-HIGH-4JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-02",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-02",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-02",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-02",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-02",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-02",
+      "check": "双拼钉距与穿入",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-02",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-02",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-02",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-02",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-02",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-02",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-03",
+      "check": "GAP-03-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-03",
+      "check": "GAP-03-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-03",
+      "check": "GAP-03-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-03",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-03",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-03",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-03",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-03",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-03",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-03",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-04",
+      "check": "GAP-04-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-04",
+      "check": "GAP-04-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-04",
+      "check": "GAP-04-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-04",
+      "check": "GAP-04-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-04",
+      "check": "GAP-04-HIGH-4接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-04",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-04",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-04",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-04",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-04",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-04",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-05",
+      "check": "GAP-05-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-05",
+      "check": "GAP-05-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-05",
+      "check": "GAP-05-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-05",
+      "check": "GAP-05-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-05",
+      "check": "GAP-05-HIGH-4接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-05",
+      "check": "GAP-05-HIGH-5接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-05",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-05",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-05",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-05",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-05",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-05",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-05",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-06",
+      "check": "GAP-06-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-06",
+      "check": "GAP-06-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-06",
+      "check": "GAP-06-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-06",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-06",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-06",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-06",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-06",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-06",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-06",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-07",
+      "check": "GAP-07-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-07",
+      "check": "GAP-07-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-07",
+      "check": "GAP-07-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-07",
+      "check": "GAP-07-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-07",
+      "check": "GAP-07-HIGH-4接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-07",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-07",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-07",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-07",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-07",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-07",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-08",
+      "check": "GAP-08-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-08",
+      "check": "GAP-08-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-08",
+      "check": "GAP-08-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-08",
+      "check": "GAP-08-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-08",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-08",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-08",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-08",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-08",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-08",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-09",
+      "check": "GAP-09-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-09",
+      "check": "GAP-09-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-09",
+      "check": "GAP-09-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-09",
+      "check": "GAP-09-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-09",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-09",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-09",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-09",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-09",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-09",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-10",
+      "check": "GAP-10-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-10",
+      "check": "GAP-10-HIGH-0JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-10",
+      "check": "GAP-10-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-10",
+      "check": "GAP-10-HIGH-1JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-10",
+      "check": "GAP-10-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-10",
+      "check": "GAP-10-HIGH-2JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-10",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-10",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-10",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-10",
+      "check": "双拼钉距与穿入",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-10",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-10",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-10",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-10",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-10",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-10",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-11",
+      "check": "GAP-11-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-11",
+      "check": "GAP-11-HIGH-0JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-11",
+      "check": "GAP-11-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-11",
+      "check": "GAP-11-HIGH-1JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-11",
+      "check": "GAP-11-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-11",
+      "check": "GAP-11-HIGH-2JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-11",
+      "check": "GAP-11-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-11",
+      "check": "GAP-11-HIGH-3JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-11",
+      "check": "GAP-11-HIGH-4接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-11",
+      "check": "GAP-11-HIGH-4JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-11",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-11",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-11",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-11",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-11",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-11",
+      "check": "双拼钉距与穿入",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-11",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-11",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-11",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-11",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-11",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-11",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-12",
+      "check": "GAP-12-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-12",
+      "check": "GAP-12-HIGH-0JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-12",
+      "check": "GAP-12-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-12",
+      "check": "GAP-12-HIGH-1JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-12",
+      "check": "GAP-12-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-12",
+      "check": "GAP-12-HIGH-2JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-12",
+      "check": "GAP-12-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-12",
+      "check": "GAP-12-HIGH-3JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-12",
+      "check": "GAP-12-HIGH-4接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-12",
+      "check": "GAP-12-HIGH-4JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-12",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-12",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-12",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-12",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-12",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-12",
+      "check": "双拼钉距与穿入",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-12",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-12",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-12",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-12",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-12",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-12",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-13",
+      "check": "GAP-13-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-13",
+      "check": "GAP-13-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-13",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-13",
+      "check": "Low和Medium表8.14均免附加抗拔",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-13",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-13",
+      "check": "双拼钉距与穿入",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-13",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-13",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-13",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-13",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-13",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-13",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-14",
+      "check": "GAP-14-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-14",
+      "check": "GAP-14-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-14",
+      "check": "GAP-14-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-14",
+      "check": "GAP-14-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-14",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-14",
+      "check": "Low和Medium表8.14均免附加抗拔",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-14",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-14",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-14",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-14",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-14",
+      "check": "双拼钉距与穿入",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-14",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-14",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-14",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-14",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-14",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-14",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-15",
+      "check": "GAP-15-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-15",
+      "check": "GAP-15-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-15",
+      "check": "GAP-15-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-15",
+      "check": "GAP-15-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-15",
+      "check": "GAP-15-HIGH-4接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-15",
+      "check": "GAP-15-HIGH-5接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-15",
+      "check": "GAP-15-HIGH-6接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-15",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-15",
+      "check": "Low和Medium表8.14均免附加抗拔",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-15",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-15",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-15",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-15",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-15",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-15",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-15",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-15",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-15",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-15",
+      "check": "双拼钉距与穿入",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-15",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-15",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-15",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-15",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-15",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-15",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-16",
+      "check": "GAP-16-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-16",
+      "check": "GAP-16-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-16",
+      "check": "GAP-16-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-16",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-16",
+      "check": "Low和Medium表8.14均免附加抗拔",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-16",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-16",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-16",
+      "check": "双拼钉距与穿入",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-16",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-16",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-16",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-16",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-16",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-16",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-17",
+      "check": "GAP-17-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-17",
+      "check": "GAP-17-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-17",
+      "check": "GAP-17-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-17",
+      "check": "GAP-17-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-17",
+      "check": "GAP-17-HIGH-4接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-17",
+      "check": "GAP-17-HIGH-5接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-17",
+      "check": "GAP-17-HIGH-6接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-17",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-17",
+      "check": "Low和Medium表8.14均免附加抗拔",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-17",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-17",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-17",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-17",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-17",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-17",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-17",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-17",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-17",
+      "check": "双拼钉距与穿入",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-17",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-17",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-17",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-17",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-17",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-17",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-18",
+      "check": "GAP-18-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-18",
+      "check": "GAP-18-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-18",
+      "check": "GAP-18-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-18",
+      "check": "GAP-18-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-18",
+      "check": "GAP-18-HIGH-4接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-18",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-18",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-18",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-18",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-18",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-18",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-18",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-19",
+      "check": "GAP-19-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-19",
+      "check": "GAP-19-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-19",
+      "check": "GAP-19-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-19",
+      "check": "GAP-19-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-19",
+      "check": "GAP-19-HIGH-4接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-19",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-19",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-19",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-19",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-19",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-19",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-19",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-20",
+      "check": "GAP-20-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-20",
+      "check": "GAP-20-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-20",
+      "check": "GAP-20-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-20",
+      "check": "GAP-20-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-20",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-20",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-20",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-20",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-20",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-20",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-22",
+      "check": "GAP-22-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-22",
+      "check": "GAP-22-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-22",
+      "check": "GAP-22-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-22",
+      "check": "GAP-22-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-22",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-22",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-22",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-22",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-22",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-22",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-23",
+      "check": "GAP-23-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-23",
+      "check": "GAP-23-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-23",
+      "check": "GAP-23-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-23",
+      "check": "GAP-23-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-23",
+      "check": "GAP-23-HIGH-4接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-23",
+      "check": "GAP-23-HIGH-5接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-23",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-23",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-23",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-23",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-23",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-23",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-23",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-24",
+      "check": "GAP-24-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-24",
+      "check": "GAP-24-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-24",
+      "check": "GAP-24-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-24",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-24",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-24",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-24",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-24",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-24",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-24",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-25",
+      "check": "GAP-25-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-25",
+      "check": "GAP-25-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-25",
+      "check": "GAP-25-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-25",
+      "check": "GAP-25-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-25",
+      "check": "GAP-25-HIGH-4接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-25",
+      "check": "GAP-25-HIGH-5接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-25",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-25",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-25",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-25",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-25",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-25",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-25",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-26",
+      "check": "GAP-26-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-26",
+      "check": "GAP-26-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-26",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-26",
+      "check": "Low和Medium表8.14均免附加抗拔",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-26",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-26",
+      "check": "双拼钉距与穿入",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-26",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-26",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-26",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-26",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-26",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-26",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-27",
+      "check": "GAP-27-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-27",
+      "check": "GAP-27-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-27",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-27",
+      "check": "Low和Medium表8.14均免附加抗拔",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-27",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-27",
+      "check": "双拼钉距与穿入",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-27",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-27",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-27",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-27",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-27",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-27",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-28",
+      "check": "GAP-28-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-28",
+      "check": "GAP-28-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-28",
+      "check": "GAP-28-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-28",
+      "check": "GAP-28-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-28",
+      "check": "GAP-28-HIGH-4接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-28",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-28",
+      "check": "Low和Medium表8.14均免附加抗拔",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-28",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-28",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-28",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-28",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-28",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-28",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-28",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-28",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-28",
+      "check": "双拼钉距与穿入",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-28",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-28",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-28",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-28",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-28",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-28",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-29",
+      "check": "GAP-29-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-29",
+      "check": "GAP-29-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-29",
+      "check": "GAP-29-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-29",
+      "check": "GAP-29-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-29",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-29",
+      "check": "Low和Medium表8.14均免附加抗拔",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-29",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-29",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-29",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-29",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-29",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-29",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-29",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-29",
+      "check": "双拼钉距与穿入",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-29",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-29",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-29",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-29",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-29",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-29",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-30",
+      "check": "GAP-30-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-30",
+      "check": "GAP-30-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-30",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-30",
+      "check": "Low和Medium表8.14均免附加抗拔",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-30",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-30",
+      "check": "双拼钉距与穿入",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-30",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-30",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-30",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-30",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-30",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-30",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-31",
+      "check": "GAP-31-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-31",
+      "check": "GAP-31-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-31",
+      "check": "GAP-31-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-31",
+      "check": "GAP-31-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-31",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-31",
+      "check": "Low和Medium表8.14均免附加抗拔",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-31",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-31",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-31",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-31",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-31",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-31",
+      "check": "双拼钉距与穿入",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-31",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-31",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-31",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-31",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-31",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-31",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-32",
+      "check": "GAP-32-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-32",
+      "check": "GAP-32-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-32",
+      "check": "GAP-32-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-32",
+      "check": "GAP-32-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-32",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-32",
+      "check": "Low和Medium表8.14均免附加抗拔",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-32",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-32",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-32",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-32",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-32",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-32",
+      "check": "双拼钉距与穿入",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-32",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-32",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-32",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-32",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-32",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-32",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-33",
+      "check": "GAP-33-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-33",
+      "check": "GAP-33-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-33",
+      "check": "GAP-33-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-33",
+      "check": "GAP-33-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-33",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-33",
+      "check": "Low和Medium表8.14均免附加抗拔",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-33",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-33",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-33",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-33",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-33",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-33",
+      "check": "双拼钉距与穿入",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-33",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-33",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-33",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-33",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-33",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-33",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-34",
+      "check": "GAP-34-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-34",
+      "check": "GAP-34-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-34",
+      "check": "GAP-34-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-34",
+      "check": "GAP-34-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-34",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-34",
+      "check": "Low和Medium表8.14均免附加抗拔",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-34",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-34",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-34",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-34",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-34",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-34",
+      "check": "双拼钉距与穿入",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-34",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-34",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-34",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-34",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-34",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-34",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-35",
+      "check": "GAP-35-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-35",
+      "check": "GAP-35-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-35",
+      "check": "GAP-35-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-35",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-35",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-35",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-35",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-35",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-35",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-35",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-36",
+      "check": "GAP-36-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-36",
+      "check": "GAP-36-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-36",
+      "check": "GAP-36-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-36",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-36",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-36",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-36",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-36",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-36",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-36",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-37",
+      "check": "GAP-37-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-37",
+      "check": "GAP-37-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-37",
+      "check": "GAP-37-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-37",
+      "check": "GAP-37-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-37",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-37",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-37",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-37",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-37",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-37",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-37",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-38",
+      "check": "GAP-38-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-38",
+      "check": "GAP-38-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-38",
+      "check": "GAP-38-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-38",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-38",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-38",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-38",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-38",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-38",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-38",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-39",
+      "check": "GAP-39-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-39",
+      "check": "GAP-39-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-39",
+      "check": "GAP-39-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-39",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-39",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-39",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-39",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-39",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-39",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-39",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-40a",
+      "check": "GAP-40a-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-40a",
+      "check": "GAP-40a-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-40a",
+      "check": "GAP-40a-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-40a",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-40a",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-40a",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-40a",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-40a",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-40a",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-40b",
+      "check": "GAP-40b-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-40b",
+      "check": "GAP-40b-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-40b",
+      "check": "GAP-40b-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-40b",
+      "check": "GAP-40b-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-40b",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-40b",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-40b",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-40b",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-40b",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-41",
+      "check": "GAP-41-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-41",
+      "check": "GAP-41-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-41",
+      "check": "GAP-41-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-41",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-41",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-41",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-41",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-41",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-41",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-41",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-42",
+      "check": "GAP-42-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-42",
+      "check": "GAP-42-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-42",
+      "check": "GAP-42-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-42",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-42",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-42",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-42",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-42",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-42",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-42",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-43",
+      "check": "GAP-43-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-43",
+      "check": "GAP-43-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-43",
+      "check": "GAP-43-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-43",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-43",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-43",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-43",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-43",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-43",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-44",
+      "check": "GAP-44-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-44",
+      "check": "GAP-44-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-44",
+      "check": "GAP-44-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-44",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-44",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-44",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-44",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-44",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-44",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-44",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-45",
+      "check": "GAP-45-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-45",
+      "check": "GAP-45-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-45",
+      "check": "GAP-45-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-45",
+      "check": "GAP-45-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-45",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-45",
+      "check": "Low和Medium表8.14均免附加抗拔",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-45",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-45",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-45",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-45",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-45",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-45",
+      "check": "双拼钉距与穿入",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-45",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-45",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-45",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-45",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-45",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-45",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-46",
+      "check": "GAP-46-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-46",
+      "check": "GAP-46-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-46",
+      "check": "GAP-46-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-46",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-46",
+      "check": "Low和Medium表8.14均免附加抗拔",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-46",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-46",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-46",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-46",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-46",
+      "check": "双拼钉距与穿入",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-46",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-46",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-46",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-46",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-46",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-46",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-47",
+      "check": "GAP-47-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-47",
+      "check": "GAP-47-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-47",
+      "check": "GAP-47-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-47",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-47",
+      "check": "Low和Medium表8.14均免附加抗拔",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-47",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-47",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-47",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-47",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-47",
+      "check": "双拼钉距与穿入",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-47",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-47",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-47",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-47",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-47",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-47",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-48",
+      "check": "GAP-48-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-48",
+      "check": "GAP-48-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-48",
+      "check": "GAP-48-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-48",
+      "check": "GAP-48-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-48",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-48",
+      "check": "Low和Medium表8.14均免附加抗拔",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-48",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-48",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-48",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-48",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-48",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-48",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-48",
+      "check": "双拼钉距与穿入",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-48",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-48",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-48",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-48",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-48",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-48",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-49",
+      "check": "GAP-49-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-49",
+      "check": "GAP-49-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-49",
+      "check": "GAP-49-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-49",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-49",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-49",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-49",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-49",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-49",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-49",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-50",
+      "check": "GAP-50-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-50",
+      "check": "GAP-50-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-50",
+      "check": "GAP-50-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-50",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-50",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-50",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-50",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-50",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-50",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-50",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-51",
+      "check": "GAP-51-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-51",
+      "check": "GAP-51-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-51",
+      "check": "GAP-51-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-51",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-51",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-51",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-51",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-51",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-51",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-51",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-52",
+      "check": "GAP-52-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-52",
+      "check": "GAP-52-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-52",
+      "check": "GAP-52-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-52",
+      "check": "GAP-52-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-52",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-52",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-52",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-52",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-52",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-52",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-52",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-53",
+      "check": "GAP-53-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-53",
+      "check": "GAP-53-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-53",
+      "check": "GAP-53-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-53",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-53",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-53",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-53",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-53",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-53",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-54",
+      "check": "GAP-54-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-54",
+      "check": "GAP-54-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-54",
+      "check": "GAP-54-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-54",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-54",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-54",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-54",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-54",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-54",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-56",
+      "check": "GAP-56-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-56",
+      "check": "GAP-56-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-56",
+      "check": "GAP-56-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-56",
+      "check": "GAP-56-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-56",
+      "check": "GAP-56-HIGH-4接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-56",
+      "check": "GAP-56-HIGH-5接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-56",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-56",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-56",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-56",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-56",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-56",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-56",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-57",
+      "check": "GAP-57-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-57",
+      "check": "GAP-57-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-57",
+      "check": "GAP-57-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-57",
+      "check": "GAP-57-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-57",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-57",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-57",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-57",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-57",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-57",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-57",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-58",
+      "check": "GAP-58-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-58",
+      "check": "GAP-58-HIGH-0JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-58",
+      "check": "GAP-58-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-58",
+      "check": "GAP-58-HIGH-1JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-58",
+      "check": "GAP-58-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-58",
+      "check": "GAP-58-HIGH-2JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-58",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-58",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-58",
+      "check": "双拼钉距与穿入",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-58",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-58",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-58",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-58",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-58",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-58",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-59",
+      "check": "GAP-59-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-59",
+      "check": "GAP-59-HIGH-0JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-59",
+      "check": "GAP-59-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-59",
+      "check": "GAP-59-HIGH-1JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-59",
+      "check": "GAP-59-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-59",
+      "check": "GAP-59-HIGH-2JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-59",
+      "check": "GAP-59-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-59",
+      "check": "GAP-59-HIGH-3JSD与钢带落梁",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-59",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-59",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-59",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-59",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-59",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-59",
+      "check": "双拼钉距与穿入",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-59",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-59",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-59",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-59",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-59",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "GAP-59",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "EXPLICIT-FF-A-OPEN-01-01",
+      "check": "EXPLICIT-FF-A-OPEN-01-01-HIGH-0接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "EXPLICIT-FF-A-OPEN-01-01",
+      "check": "EXPLICIT-FF-A-OPEN-01-01-HIGH-1接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "EXPLICIT-FF-A-OPEN-01-01",
+      "check": "EXPLICIT-FF-A-OPEN-01-01-HIGH-2接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "EXPLICIT-FF-A-OPEN-01-01",
+      "check": "EXPLICIT-FF-A-OPEN-01-01-HIGH-3接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "EXPLICIT-FF-A-OPEN-01-01",
+      "check": "EXPLICIT-FF-A-OPEN-01-01-HIGH-4接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "EXPLICIT-FF-A-OPEN-01-01",
+      "check": "EXPLICIT-FF-A-OPEN-01-01-HIGH-5接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "EXPLICIT-FF-A-OPEN-01-01",
+      "check": "EXPLICIT-FF-A-OPEN-01-01-HIGH-6接触梁顶和顶板",
+      "pass": true
+    },
+    {
+      "opening_id": "EXPLICIT-FF-A-OPEN-01-01",
+      "check": "短柱间距不超过600",
+      "pass": true
+    },
+    {
+      "opening_id": "EXPLICIT-FF-A-OPEN-01-01",
+      "check": "Low和Medium表8.14均免附加抗拔",
+      "pass": true
+    },
+    {
+      "opening_id": "EXPLICIT-FF-A-OPEN-01-01",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "EXPLICIT-FF-A-OPEN-01-01",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "EXPLICIT-FF-A-OPEN-01-01",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "EXPLICIT-FF-A-OPEN-01-01",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "EXPLICIT-FF-A-OPEN-01-01",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "EXPLICIT-FF-A-OPEN-01-01",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "EXPLICIT-FF-A-OPEN-01-01",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "EXPLICIT-FF-A-OPEN-01-01",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "EXPLICIT-FF-A-OPEN-01-01",
+      "check": "双拼钉排可布置",
+      "pass": true
+    },
+    {
+      "opening_id": "EXPLICIT-FF-A-OPEN-01-01",
+      "check": "双拼钉距与穿入",
+      "pass": true
+    },
+    {
+      "opening_id": "EXPLICIT-FF-A-OPEN-01-01",
+      "check": "L承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "EXPLICIT-FF-A-OPEN-01-01",
+      "check": "L旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "EXPLICIT-FF-A-OPEN-01-01",
+      "check": "L表8.5旁柱名义厚度",
+      "pass": true
+    },
+    {
+      "opening_id": "EXPLICIT-FF-A-OPEN-01-01",
+      "check": "R承托柱存在",
+      "pass": true
+    },
+    {
+      "opening_id": "EXPLICIT-FF-A-OPEN-01-01",
+      "check": "R旁柱高度",
+      "pass": true
+    },
+    {
+      "opening_id": "EXPLICIT-FF-A-OPEN-01-01",
+      "check": "R表8.5旁柱名义厚度",
+      "pass": true
+    }
+  ],
+  "scope": "逐洞安装尺寸与规范构造，非容量PASS"
+}
